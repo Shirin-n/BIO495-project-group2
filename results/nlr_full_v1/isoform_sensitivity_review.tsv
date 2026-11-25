@@ -1,0 +1,3 @@
+species	genome_id	gene_id	protein_id	length	terminal_stop_removed	internal_stop_count	ambiguous_residues	missing_gtf_start_codon	missing_gtf_stop_codon	is_representative	eligible_for_count	canonical	nacht	nb_arc	nacht_domains	nb_arc_domains	lrr_domains	multiple_core_domains	mixed_core_models	overlapping_core_models	domains
+Echinopora horrida	jaEchHorr1	g13877	g13877.t1	1261	True	0	0	False	False	True	True	False	True	False	1	0	0	False	False	False	NACHT:302-456
+Echinopora horrida	jaEchHorr1	g13877	g13877.t2	1207	True	0	0	False	False	False	True	True	True	False	1	0	1	False	False	False	NACHT:302-456;LRR_6:1046-1063

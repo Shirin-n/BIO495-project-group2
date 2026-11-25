@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "primary_A_independent_scipy_abs_statistic_p": 0.5859126984126984,
+  "primary_B_independent_raw_matrix_reranking_p": 0.617609126984127,
+  "primary_B_extreme_count": 24902,
+  "primary_permutations": 40320,
+  "all_saved_nulls_reproduce_reported_pvalues": true,
+  "undefined_pvalues_not_imputed": true,
+  "primary_results_sha256": "e4254dd14c0362d86a05e92013c729b219dbeb9dd159c9e34dafc50548dd0ca6",
+  "source_script_sha256": "6f044f8c7241b63cd8db288790b247bba0d1d07f4e02a129c1b77351c31c1b2c"
+}

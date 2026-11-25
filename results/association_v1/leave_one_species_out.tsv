@@ -1,0 +1,17 @@
+omitted_species	endpoint	n_species	n_pairs	effect_rho	status	reason	permutation_method	permutations	extreme_count	p_raw	p_holm_primary	random_p_mc_se	observed_rank_dot	rank_norm_product
+Acropora hyacinthus	A	7		-0.180187492539	effect_only	leave-one-species-out effect diagnostic	none	0					-980	5438.7792748
+Acropora hyacinthus	B	7	21	-0.103414770857	effect_only	leave-one-species-out effect diagnostic	none	0					-140238	1356073.20732
+Caulastraea furcata	A	7		-0.392857142857	effect_only	leave-one-species-out effect diagnostic	none	0					-2156	5488
+Caulastraea furcata	B	7	21	0.2	effect_only	leave-one-species-out effect diagnostic	none	0					271656	1358280
+Galaxea fascicularis	A	7		-0.0540562477617	effect_only	leave-one-species-out effect diagnostic	none	0					-294	5438.7792748
+Galaxea fascicularis	B	7	21	-0.208780763806	effect_only	leave-one-species-out effect diagnostic	none	0					-283122	1356073.20732
+Isopora palifera	A	7		-0.180187492539	effect_only	leave-one-species-out effect diagnostic	none	0					-980	5438.7792748
+Isopora palifera	B	7	21	-0.216585652172	effect_only	leave-one-species-out effect diagnostic	none	0					-293706	1356073.20732
+Pocillopora damicornis	A	7		-0.666693722395	effect_only	leave-one-species-out effect diagnostic	none	0					-3626	5438.7792748
+Pocillopora damicornis	B	7	21	-0.17430917352	effect_only	leave-one-species-out effect diagnostic	none	0					-236376	1356073.20732
+Porites cylindrica	A	7		-0.0900937462696	effect_only	leave-one-species-out effect diagnostic	none	0					-490	5438.7792748
+Porites cylindrica	B	7	21	-0.0826017352129	effect_only	leave-one-species-out effect diagnostic	none	0					-112014	1356073.20732
+Stylophora pistillata	A	7		-0.214285714286	effect_only	leave-one-species-out effect diagnostic	none	0					-1176	5488
+Stylophora pistillata	B	7	21	0.0311688311688	effect_only	leave-one-species-out effect diagnostic	none	0					42336	1358280
+Turbinaria reniformis	A	7		-0.0540562477617	effect_only	leave-one-species-out effect diagnostic	none	0					-294	5438.7792748
+Turbinaria reniformis	B	7	21	-0.124227806501	effect_only	leave-one-species-out effect diagnostic	none	0					-168462	1356073.20732

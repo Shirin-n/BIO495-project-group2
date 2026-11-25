@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "primary_conclusion": "Neither primary endpoint reaches the frozen 0.05 threshold after Holm correction.",
+  "pgls": "not_performed_no_adequate_tree",
+  "source_script_sha256": "db03738cda47acb0cb45fe9c8a3fc2c8663d239d742aa74fb7811dac50c97f0a",
+  "input_validation_sha256": "86d259b055db5dfa17def5453a075a7c4ee6688c0f79d73254585741914a5fe8",
+  "products_sha256": {
+    "reports/association_v1_report.txt": "6e48f42144a869998e9c4512d5e4fbf7e93c8b40af46105c4c7a1c165764b822",
+    "results/association_v1/independent_audit.json": "5453c39c96cb1fa6abb1af4d9b5b7c0fb956155bb3f37f102ea562acefb0c524",
+    "results/figures/association_primary_v1.png": "5a2cdfdf2218bcda2d6c40a06a349ccc91735848daba86a0f25e38e906f76961",
+    "results/figures/association_primary_v1.pdf": "c6220e4f871fe439b19524b807dcf2d40d0a870b16a75c7ab370d0d78242576a",
+    "results/figures/association_sensitivity_v1.png": "59d0df97ef4e1a6af34bc725854444667a621e47e43b4ca475576fac761ab9a0",
+    "results/figures/association_sensitivity_v1.pdf": "980ec520674ea2eaba29513a7da31feb0374f75ecb7ff9a7ab0d1a21a9745b08",
+    "results/figures/association_leave_one_out_v1.png": "30785c17668ffc46e0f793f988b7a14111e6ad50f37aeb3e46e117046b465bbe",
+    "results/figures/association_leave_one_out_v1.pdf": "5493e123b14949bb47b5c23a37da9e8b41798fd3c6276f8a54ecc7e1ed66795d"
+  }
+}

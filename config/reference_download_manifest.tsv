@@ -1,0 +1,4 @@
+local_path	url	bytes	sha256	checked_utc	validation
+data/reference/hmm/PF05729.hmm.gz	https://www.ebi.ac.uk/interpro/api/entry/pfam/PF05729/?annotation=hmm	16194	bc829d85f2849296527e5a8a499f5f78b32d92719f84644ae0e8dee787c91239	2026-11-17T07:17:06.280420+00:00	gzip integrity and HMMER header; accession version in file
+data/reference/hmm/PF00931.hmm.gz	https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00931/?annotation=hmm	14441	7091631ef17f12f9760c09ca0a507efff4197b95d1f8a7627e28f1f2a4728685	2026-11-17T07:17:06.281937+00:00	gzip integrity and HMMER header; accession version in file
+docs/literature/Pollock_2018_coral_microbiome.pdf	https://researchonline.jcu.edu.au/56506/1/s41467-018-07275-x.pdf	2695331	b030d29cf27c9767159af8500355f07d755ef81bf73d07b30a11b5f08a58bee8	2026-11-17T07:17:06.297465+00:00	PDF signature; not visually reviewed

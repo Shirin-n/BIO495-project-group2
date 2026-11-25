@@ -1,0 +1,16 @@
+accession	name	description	length	gathering_threshold	role	path	sha256
+PF00023.38	Ank	Ankyrin repeat	33	21.1 14.7;	repeat/effector architecture support	data/reference/hmm/PF00023.hmm.gz	981977fe9842564b6bc0834fd5e17bdd497b5ae3b85341e92259e60cf3786b8a
+PF00400.40	WD40	WD domain, G-beta repeat	39	27 12.1;	repeat/effector architecture support	data/reference/hmm/PF00400.hmm.gz	d2fe70ffbcab022729c37a6f04608541065e0a3772faab42d97e99ea98de5e2e
+PF00515.36	TPR_1	Tetratricopeptide repeat	34	27.8 27.8;	repeat/effector architecture support	data/reference/hmm/PF00515.hmm.gz	45e4eb4673c06e6c776b73406cf3d3812fad04537192c72d3dda11831ea644b7
+PF00531.30	Death	Death domain	86	22.6 22.6;	repeat/effector architecture support	data/reference/hmm/PF00531.hmm.gz	05e5ca1f276888dbae5727c444f52a0e212e17bc23d7c4d6c76ba8cf85a22f42
+PF00560.41	LRR_1	Leucine Rich Repeat	23	20.6 9.3;	repeat/effector architecture support	data/reference/hmm/PF00560.hmm.gz	d8339d3605e50178cf0a7f59bf940868d35a9fa0d2d0e22477e087be223c5671
+PF00619.28	CARD	Caspase recruitment domain	85	23.9 23.9;	repeat/effector architecture support	data/reference/hmm/PF00619.hmm.gz	60ed9486d2b2a106f1ee0cf5bd8a85b38d10d8baf797dc31fd27e36970f4690f
+PF00931.30	NB-ARC	NB-ARC domain	152	23.5 23.5;	core candidate domain	data/reference/hmm/PF00931.hmm.gz	7091631ef17f12f9760c09ca0a507efff4197b95d1f8a7627e28f1f2a4728685
+PF01335.29	DED	Death effector domain	82	35.9 35.9;	repeat/effector architecture support	data/reference/hmm/PF01335.hmm.gz	44ed22a669f82d88a4af8b0ab03768357b3bd7cba543c35cff4cb3f628737e25
+PF05729.20	NACHT	NACHT domain	167	26.7 26.7;	core candidate domain	data/reference/hmm/PF05729.hmm.gz	bc829d85f2849296527e5a8a499f5f78b32d92719f84644ae0e8dee787c91239
+PF07723.20	LRR_2	Leucine Rich Repeat	26	20.9 9.5;	repeat/effector architecture support	data/reference/hmm/PF07723.hmm.gz	4f54c888d43e73c566341a0e43ca94878ab4bee6a26dea3fd4a06a763d3ee1bc
+PF07725.19	LRR_3	Leucine Rich Repeat	20	20.2 20.2;	repeat/effector architecture support	data/reference/hmm/PF07725.hmm.gz	8d499dda2ac44790a29e96bd1d7d1cff4918010290b00f05fbe00b9b15296718
+PF12799.15	LRR_4	Leucine Rich repeats (2 copies)	44	27 27;	repeat/effector architecture support	data/reference/hmm/PF12799.hmm.gz	4b0fd43047e9f4d2a13ec818af5d530e38f1a4376a12dd276a77f7bec60071bf
+PF13516.14	LRR_6	Leucine Rich repeat	24	23.4 8.7;	repeat/effector architecture support	data/reference/hmm/PF13516.hmm.gz	0d459359907ac0db42fa5ae3522c9a7bfe8fe175b24638c5ea61a621cdc35c5d
+PF13855.14	LRR_8	Leucine rich repeat	61	27 27;	repeat/effector architecture support	data/reference/hmm/PF13855.hmm.gz	52df18900759aa30da97b1839763bcdb39a4ede8e4e97726e4e93f16e7aac34e
+PF14580.13	LRR_9	Leucine-rich repeat	175	30.5 30.5;	repeat/effector architecture support	data/reference/hmm/PF14580.hmm.gz	010bd3171705e7de50d0bc0cc9536737c47d68eabef765cbe16ec754239ec990

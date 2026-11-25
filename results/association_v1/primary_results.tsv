@@ -1,0 +1,3 @@
+scenario	data_scenario	factor	exposure	alpha_metric	n_samples	n_recorded_colonies	excluded_primary_species	additional_species	pvalue_family	note	endpoint	n_species	n_pairs	effect_rho	status	reason	permutation_method	permutations	extreme_count	p_raw	p_holm_primary	random_p_mc_se	observed_rank_dot	rank_norm_product
+primary_strict_mito_agree	primary_strict_mito_agree	primary	canonical	shannon_mean	25	25			primary_two_test_Holm		A	8		-0.227548989764	tested		exact	40320	23624	0.585912698413	1		-2432	10687.8083815
+primary_strict_mito_agree	primary_strict_mito_agree	primary	canonical	shannon_mean	25	25			primary_two_test_Holm		B	8	28	-0.0884689424929	tested		exact	40320	24902	0.617609126984	1		-506464	5724766.06738

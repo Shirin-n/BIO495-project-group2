@@ -1,0 +1,101 @@
+{
+  "sha": "fba13cd74d717727d1990e5848d9c86695454a90",
+  "node_id": "MDY6Q29tbWl0MTQ1MTk1MDMwOmZiYTEzY2Q3NGQ3MTc3MjdkMTk5MGU1ODQ4ZDljODY2OTU0NTRhOTA=",
+  "commit": {
+    "author": {
+      "name": "Jesse Zaneveld",
+      "email": "zaneveld@gmail.com",
+      "date": "2018-09-02T21:52:34Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2018-09-02T21:52:34Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "0a1d7d499dfd3ecb962e02b5615e8373950c4868",
+      "url": "https://api.github.com/repos/zaneveld/GCMP_Australia_Coevolution/git/trees/0a1d7d499dfd3ecb962e02b5615e8373950c4868"
+    },
+    "url": "https://api.github.com/repos/zaneveld/GCMP_Australia_Coevolution/git/commits/fba13cd74d717727d1990e5848d9c86695454a90",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbjFuiCRBK7hj4Ov3rIwAAdHIIAATC4p2gR72NjPTSWAgmI64P\nYAr4AlZ1+zH01jCsU3xfZ8nVY04JAGNQPwb3kvnPsW3ancOgaebP/WbAP+c8WRvh\ngKVUwS+fGR4diFLVdcA36eUdULRl2ULbdRia7xGeivxmJFRI8aqht0MC0AgISNyw\nq8Y+yEBCSzny5gCvcxaMHSbruRzjEwMYoiEuMal3LN2c6kwUugIWVUvZfeMDXlwi\nYFNUmHdeasgAmc8dPmKCdaN8lYmF+jy/J73PdkEy5D+URMIXOZbOrgVSpS+cVFBt\noKK6e39QCb97PRs3ozoockzuKICjhSK4MWfXm9PtLSqg/5wafoYqOUWe1UZBi6U=\n=3Mci\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 0a1d7d499dfd3ecb962e02b5615e8373950c4868\nparent 2f685f8d33f1099a37de26421f486f142dc188d0\nauthor Jesse Zaneveld <zaneveld@gmail.com> 1535925154 -0700\ncommitter GitHub <noreply@github.com> 1535925154 -0700\n\nUpdate README.md",
+      "verified_at": "2024-01-16T19:59:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/zaneveld/GCMP_Australia_Coevolution/commits/fba13cd74d717727d1990e5848d9c86695454a90",
+  "html_url": "https://github.com/zaneveld/GCMP_Australia_Coevolution/commit/fba13cd74d717727d1990e5848d9c86695454a90",
+  "comments_url": "https://api.github.com/repos/zaneveld/GCMP_Australia_Coevolution/commits/fba13cd74d717727d1990e5848d9c86695454a90/comments",
+  "author": {
+    "login": "zaneveld",
+    "id": 3092464,
+    "node_id": "MDQ6VXNlcjMwOTI0NjQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3092464?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zaneveld",
+    "html_url": "https://github.com/zaneveld",
+    "followers_url": "https://api.github.com/users/zaneveld/followers",
+    "following_url": "https://api.github.com/users/zaneveld/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zaneveld/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zaneveld/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zaneveld/subscriptions",
+    "organizations_url": "https://api.github.com/users/zaneveld/orgs",
+    "repos_url": "https://api.github.com/users/zaneveld/repos",
+    "events_url": "https://api.github.com/users/zaneveld/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zaneveld/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "2f685f8d33f1099a37de26421f486f142dc188d0",
+      "url": "https://api.github.com/repos/zaneveld/GCMP_Australia_Coevolution/commits/2f685f8d33f1099a37de26421f486f142dc188d0",
+      "html_url": "https://github.com/zaneveld/GCMP_Australia_Coevolution/commit/2f685f8d33f1099a37de26421f486f142dc188d0"
+    }
+  ],
+  "stats": {
+    "total": 12,
+    "additions": 9,
+    "deletions": 3
+  },
+  "files": [
+    {
+      "sha": "593be974848b4cd75537aca84987b5c3ca77dfb2",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 3,
+      "changes": 12,
+      "blob_url": "https://github.com/zaneveld/GCMP_Australia_Coevolution/blob/fba13cd74d717727d1990e5848d9c86695454a90/README.md",
+      "raw_url": "https://github.com/zaneveld/GCMP_Australia_Coevolution/raw/fba13cd74d717727d1990e5848d9c86695454a90/README.md",
+      "contents_url": "https://api.github.com/repos/zaneveld/GCMP_Australia_Coevolution/contents/README.md?ref=fba13cd74d717727d1990e5848d9c86695454a90",
+      "patch": "@@ -1,8 +1,14 @@\n # GCMP_Australia_Coevolution\n-Code and intermediate data files for the Global Coral Microbiome Project's Study of coral-microbe cophylogeny in Australia\n+Code and intermediate data files for the Global Coral Microbiome Project's Study of coral-microbe cophylogeny in Australia.\n \n A full version of all code, intermediate data files, and results can be found here: https://www.dropbox.com/sh/icij16po86x6lo2/AAAs_7FN7aIbZtqszrH576kDa?dl=0\n-The GitHub archive will contain the scripts (iPython notebooks, R scripts, or .sh files) for each analytical step. \n-Each directory has an input, output, and procedure folder. The scripts in the procedure folder can be run on the input folder to generate the output.\n+\n+The prefix on each directory (0_, 1_) reflects a step in the analysis process.  The directory for each step has an input, output, and procedure folder. The scripts in the procedure folder can be run on the input folder to generate the output. \n+\n+This GitHub archive contains just the scripts (iPython notebooks, R scripts, or .sh files) for each analytical step. All analytical steps were conducted in either QIIME1.9 or in R. Large input files, of which there are several, are not included directly in the GitHub repository and need to be downloaded from the above link and added to the input folders. Note also that the code here is a superset of analyses used in the manuscript (code for some analayses that were not persued further is also available).\n+\n+\n+\n+\n \n "
+    }
+  ]
+}

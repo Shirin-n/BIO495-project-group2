@@ -1,0 +1,6 @@
+accession	name	organism	length	role	source	sequence_version	reference_count
+Q9Y239	Nucleotide-binding oligomerization domain-containing protein 1	Homo sapiens	953	curated human NLR architecture reference	https://rest.uniprot.org/uniprotkb/Q9Y239	1	30
+Q9HC29	Nucleotide-binding oligomerization domain-containing protein 2	Homo sapiens	1040	curated human NLR architecture reference	https://rest.uniprot.org/uniprotkb/Q9HC29	1	62
+Q96P20	NACHT, LRR and PYD domains-containing protein 3	Homo sapiens	1036	curated human NLR architecture reference	https://rest.uniprot.org/uniprotkb/Q96P20	3	87
+O14727	Apoptotic protease-activating factor 1	Homo sapiens	1248	NB-ARC specificity comparator; not an NLR positive	https://rest.uniprot.org/uniprotkb/O14727	2	20
+ADU79234.1	NLR type 1	Hydra vulgaris (published as H. magnipapillata)	688	literature-linked cnidarian NLR; not coral	https://www.ncbi.nlm.nih.gov/nuccore/HQ660063.1	1	1

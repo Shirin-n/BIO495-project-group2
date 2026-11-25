@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "source_script_sha256": "aa7a74fdb30861ec75403bb61d5f3dc473050f2a9f4ae12fd2b52097d4bb4513",
+  "input_validation_sha256": "f3e9725870b46680c01f695167f0c2851bf43cae578141fdb4eaf9143712128a",
+  "products_sha256": {
+    "results/microbiome_metrics_v1/summary_metrics.json": "91882612635fc9e79ae10ee7d9f68bd092a958fd279f08a09e4c29976014905a",
+    "results/microbiome_metrics_v1/family_composition_plot_data.tsv": "e2c2c21c7cd0be8861b142de3fc2c9391f2e7bb59b3c03f5516782b2ece37334",
+    "reports/microbiome_metrics_v1_report.txt": "5405842c18a571d6990df377cd20180ad7b0a0f92ae5c75bf0c65ab066cba5aa",
+    "results/figures/microbiome_shannon_v1.png": "262de76a479242e149141615ae9d7b2c5175fc6c11d6a3d154f372c8a41e654d",
+    "results/figures/microbiome_shannon_v1.pdf": "06acc44307858210de5cbbcb7d449056d423254ad0606ea9963794a67d340aa6",
+    "results/figures/microbiome_pcoa_v1.png": "26e00a1765cadbe9ccbbe612442cde7a869223db17dfe87a3bf1178badd5d05b",
+    "results/figures/microbiome_pcoa_v1.pdf": "c355f7404ca8a9fe53009ca5a37c7d98a0de240f30a19430cdf3360aba9582ac",
+    "results/figures/microbiome_rarefaction_v1.png": "ef09141e85b4f646567e4b585cdc394e28140908a8b3f20e389e182dbfc3680d",
+    "results/figures/microbiome_rarefaction_v1.pdf": "4ca7c367e6e4201ac529ee9f0cb2566fe81e520c763010cb9b0583b810e04693",
+    "results/figures/microbiome_composition_v1.png": "761ba4ab610edacf2b2beb3c40eff5eecaff1f6eb328f6fbe6e4f9f2f5450acf",
+    "results/figures/microbiome_composition_v1.pdf": "49642210e4c6b490828ed1c5b02f73cd3b690b50ae52106fcf3800c31a16d913"
+  }
+}

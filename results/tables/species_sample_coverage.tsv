@@ -1,0 +1,10 @@
+species	metadata_samples	tissue_samples	strict_samples	strict_colonies	broad_samples	strict_mitotype_agree	strict_mitotype_disagree	strict_expeditions	fewer_than_3_strict_colonies
+Acropora hyacinthus	62	21	3	3	21	2	1	1	False
+Caulastraea furcata	4	1	1	1	1	1	0	1	True
+Echinopora horrida	3	1	0	0	1	0	0	0	True
+Galaxea fascicularis	6	2	2	2	2	2	0	1	True
+Isopora palifera	13	4	4	4	4	4	0	2	False
+Pocillopora damicornis	26	9	9	9	9	8	1	3	False
+Porites cylindrica	15	5	2	2	5	2	0	1	True
+Stylophora pistillata	27	9	6	6	9	5	1	2	False
+Turbinaria reniformis	15	5	2	2	5	2	0	1	True

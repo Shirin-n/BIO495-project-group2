@@ -1,0 +1,39 @@
+# Local system and Python caches
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.part
+.venv/
+.conda/
+
+# Downloaded datasets and generated working data
+data/raw/
+data/processed/
+data/interim/*
+!data/interim/proteins/
+data/interim/proteins/*
+!data/interim/proteins/busco_ocr.json
+
+# Generated summaries, reading copies and local download receipts
+reports/
+coral_nlr_microbiome_analysis.html
+config/download_manifest.tsv
+config/planned_downloads.tsv
+config/project_preferences.json
+
+# Reproducible, detailed screening and taxonomy tables
+/results/nlr_*_v1/domain_evidence.tsv
+/results/nlr_*_v1/locus_classification.tsv
+/results/nlr_*_v1/protein_classification.tsv
+/results/qc/feature_taxonomy_audit.tsv
+
+# Result records with machine-specific absolute paths
+/results/nlr_*_v1/commands.json
+/results/association_v1/phylogeny_status.json
+/results/association_v1/summary_metrics.json
+
+# Local class materials
+/BIO_495_SciPy_Tool_Tutorial.pdf
+/Group 2 Plan Outline.docx
+/docs/scipy_bray_curtis_tutorial.md

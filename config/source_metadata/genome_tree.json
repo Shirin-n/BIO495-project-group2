@@ -1,0 +1,3217 @@
+{
+  "sha": "5d18908cfb89af83181d5205f003c05d9494c0cc",
+  "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/5d18908cfb89af83181d5205f003c05d9494c0cc",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c8ef5992c2b96922d70792f8d1676a0734750c1",
+      "size": 1060,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9c8ef5992c2b96922d70792f8d1676a0734750c1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f12678144de7c7322e8df84adc5ff33f20f2b79",
+      "size": 1169,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/0f12678144de7c7322e8df84adc5ff33f20f2b79"
+    },
+    {
+      "path": "methods",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6da783ddd0114cf297cf5504aa39d9bfd179099",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/b6da783ddd0114cf297cf5504aa39d9bfd179099"
+    },
+    {
+      "path": "methods/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b450e15350117078b0029bb636f423b84176679f",
+      "size": 2253,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b450e15350117078b0029bb636f423b84176679f"
+    },
+    {
+      "path": "methods/other.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1750542455b0ad9cf10fe53a36338d6ac4b48baa",
+      "size": 1938,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1750542455b0ad9cf10fe53a36338d6ac4b48baa"
+    },
+    {
+      "path": "methods/pipeline_apr2025.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2591a6a6eb57cb9970661b6ec414eedda1cfae4f",
+      "size": 41053,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/2591a6a6eb57cb9970661b6ec414eedda1cfae4f"
+    },
+    {
+      "path": "methods/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04784cfb46070b74c3b2642eb3bedbae1520ef46",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/04784cfb46070b74c3b2642eb3bedbae1520ef46"
+    },
+    {
+      "path": "methods/scripts/VARUSparameters.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f7f08dad8fe8584c73e5402f529e18f1082010f4",
+      "size": 641,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f7f08dad8fe8584c73e5402f529e18f1082010f4"
+    },
+    {
+      "path": "methods/scripts/gtf_stats.rb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b9730ecd734f0b248b543254da3978e0972e2ca4",
+      "size": 991,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b9730ecd734f0b248b543254da3978e0972e2ca4"
+    },
+    {
+      "path": "methods/scripts/run_braker3.bash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fe7ca3b26625bbab939d875578fc968561f3190a",
+      "size": 1010,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fe7ca3b26625bbab939d875578fc968561f3190a"
+    },
+    {
+      "path": "methods/scripts/run_braker3_prot.bash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c572ade79bbff5e09732423d75568e893dc77a5c",
+      "size": 941,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c572ade79bbff5e09732423d75568e893dc77a5c"
+    },
+    {
+      "path": "methods/scripts/run_busco.bash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "10dde57e85856299880a425fb4c642444ebc52e5",
+      "size": 231,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/10dde57e85856299880a425fb4c642444ebc52e5"
+    },
+    {
+      "path": "methods/scripts/run_emmaper.bash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9ef73712e15f9709880b2d498ae5aadf80cd9e3c",
+      "size": 866,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9ef73712e15f9709880b2d498ae5aadf80cd9e3c"
+    },
+    {
+      "path": "methods/scripts/run_omark.bash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bcf4df807dd40e04055a41989fcef800c0f6bed2",
+      "size": 806,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/bcf4df807dd40e04055a41989fcef800c0f6bed2"
+    },
+    {
+      "path": "methods/scripts/run_quast.bash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d5410b78e6b6c514a969facc752dab347a882b77",
+      "size": 556,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d5410b78e6b6c514a969facc752dab347a882b77"
+    },
+    {
+      "path": "methods/scripts/run_repeatmodeler.bash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d84543e67c623d8c76947d3e1483399c4daece62",
+      "size": 927,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d84543e67c623d8c76947d3e1483399c4daece62"
+    },
+    {
+      "path": "methods/scripts/varus.bash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a42cfa92dabe672996358d22e8037157e7537fd9",
+      "size": 534,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a42cfa92dabe672996358d22e8037157e7537fd9"
+    },
+    {
+      "path": "protein_sets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad1d4d1adbef844d7c168c7951193cd214d3552d",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/ad1d4d1adbef844d7c168c7951193cd214d3552d"
+    },
+    {
+      "path": "protein_sets/Complex_Aug_2025.faa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f0751e5efd6393149cc2349bf58340b72cd2184",
+      "size": 56202224,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1f0751e5efd6393149cc2349bf58340b72cd2184"
+    },
+    {
+      "path": "protein_sets/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fdb492e65709820eb6356b7f20b75696f23a695",
+      "size": 2069,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6fdb492e65709820eb6356b7f20b75696f23a695"
+    },
+    {
+      "path": "protein_sets/Robust_Aug_2025.faa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2a58cfae59196d66b8f33ee0670e7ad28e82629",
+      "size": 45269248,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a2a58cfae59196d66b8f33ee0670e7ad28e82629"
+    },
+    {
+      "path": "protein_sets/Scleractinia.fasta.xz_partaa",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "993c1c5e51db32a63aaaf4549775f768d00d2d93",
+      "size": 52428800,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/993c1c5e51db32a63aaaf4549775f768d00d2d93"
+    },
+    {
+      "path": "protein_sets/Scleractinia.fasta.xz_partab",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd175be794bff757418ba00c1f634acc4a60892d",
+      "size": 52428800,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fd175be794bff757418ba00c1f634acc4a60892d"
+    },
+    {
+      "path": "protein_sets/Scleractinia.fasta.xz_partac",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "665c2d7143615c46421c2f492a719feb36d56616",
+      "size": 44071300,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/665c2d7143615c46421c2f492a719feb36d56616"
+    },
+    {
+      "path": "protein_sets/cnidaria_uniprot_25_08_2023_without_A0A6S7FRV1_PARCT.fa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c7e89156deed4200f7ecfc854507a65557ddfba",
+      "size": 43724820,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7c7e89156deed4200f7ecfc854507a65557ddfba"
+    },
+    {
+      "path": "protein_sets/uniprotkb_hexacorallia_2023_11_20.fasta.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daf7ffd758e71c1bbf1e6d05dfd1a9d42539adea",
+      "size": 29283688,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/daf7ffd758e71c1bbf1e6d05dfd1a9d42539adea"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26fd544cf547cdf9553c5d8770342de2c2558ebf",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/26fd544cf547cdf9553c5d8770342de2c2558ebf"
+    },
+    {
+      "path": "results/jaAcrAuse1_Acropora_austera",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18b741447d5e4356a9c4f0323b770856613e5887",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/18b741447d5e4356a9c4f0323b770856613e5887"
+    },
+    {
+      "path": "results/jaAcrAuse1_Acropora_austera/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "490e168ae6846ced1eec43150719cc3b74008fc4",
+      "size": 992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/490e168ae6846ced1eec43150719cc3b74008fc4"
+    },
+    {
+      "path": "results/jaAcrAuse1_Acropora_austera/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b783b982111f9d05714860428d8f9608d150cb7c",
+      "size": 7582776,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b783b982111f9d05714860428d8f9608d150cb7c"
+    },
+    {
+      "path": "results/jaAcrAuse1_Acropora_austera/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef8470da039bc4945730779b266cd292674bcb06",
+      "size": 12632977,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ef8470da039bc4945730779b266cd292674bcb06"
+    },
+    {
+      "path": "results/jaAcrAuse1_Acropora_austera/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffdc055a94c8d002a35a194aefce802dbd5ef5a0",
+      "size": 5908601,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ffdc055a94c8d002a35a194aefce802dbd5ef5a0"
+    },
+    {
+      "path": "results/jaAcrAuse1_Acropora_austera/jaAcrAuse1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e2c1b9fd54bfeb94719e30eac13894815b35e9",
+      "size": 4999502,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/78e2c1b9fd54bfeb94719e30eac13894815b35e9"
+    },
+    {
+      "path": "results/jaAcrAuse1_Acropora_austera/jaAcrAuse1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "429a02bdbcdb0daac5356fd90ec7b5edcfde1cc8",
+      "size": 14379525,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/429a02bdbcdb0daac5356fd90ec7b5edcfde1cc8"
+    },
+    {
+      "path": "results/jaAcrAuse1_Acropora_austera/jaAcrAuse1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "185d4dfea9b8cb3ab620b38ba7c9923d33a2d41a",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/185d4dfea9b8cb3ab620b38ba7c9923d33a2d41a"
+    },
+    {
+      "path": "results/jaAcrAuse1_Acropora_austera/jaAcrAuse1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428290cac98a3abb60b9b92aae029d36b32a1b28",
+      "size": 162299,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/428290cac98a3abb60b9b92aae029d36b32a1b28"
+    },
+    {
+      "path": "results/jaAcrCerv1_Acropora_cervicornis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30f42c85f0953f51315e982122cc2051248c9299",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/30f42c85f0953f51315e982122cc2051248c9299"
+    },
+    {
+      "path": "results/jaAcrCerv1_Acropora_cervicornis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb16c60c6c240f2d8adba4dbd81392c6ff1fb4a1",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/cb16c60c6c240f2d8adba4dbd81392c6ff1fb4a1"
+    },
+    {
+      "path": "results/jaAcrCerv1_Acropora_cervicornis/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b04f16c9c6109bfc5e06db3130b3cbf4f1a844ec",
+      "size": 6608531,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b04f16c9c6109bfc5e06db3130b3cbf4f1a844ec"
+    },
+    {
+      "path": "results/jaAcrCerv1_Acropora_cervicornis/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2dd4fd7bc67b6a0ca0737e647843f29694b347b",
+      "size": 10852800,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d2dd4fd7bc67b6a0ca0737e647843f29694b347b"
+    },
+    {
+      "path": "results/jaAcrCerv1_Acropora_cervicornis/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb413f5673486fe54a4c05dc016fe252c5ca24e",
+      "size": 5369658,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/8bb413f5673486fe54a4c05dc016fe252c5ca24e"
+    },
+    {
+      "path": "results/jaAcrCerv1_Acropora_cervicornis/jaAcrCerv1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28590dc002090b7a89f172ba4e98157cf4685bf9",
+      "size": 4598441,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/28590dc002090b7a89f172ba4e98157cf4685bf9"
+    },
+    {
+      "path": "results/jaAcrCerv1_Acropora_cervicornis/jaAcrCerv1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98495cd90392d4865cc5ee16e4bf3f00a74f2352",
+      "size": 13146047,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/98495cd90392d4865cc5ee16e4bf3f00a74f2352"
+    },
+    {
+      "path": "results/jaAcrCerv1_Acropora_cervicornis/jaAcrCerv1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e76b2b65d6e4f5c641ddacefaef622c2e30662",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c5e76b2b65d6e4f5c641ddacefaef622c2e30662"
+    },
+    {
+      "path": "results/jaAcrCerv1_Acropora_cervicornis/jaAcrCerv1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0930bf11952cc57f826478ff328742217ac9b78c",
+      "size": 161613,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/0930bf11952cc57f826478ff328742217ac9b78c"
+    },
+    {
+      "path": "results/jaAcrGlau1_Acropora_glauca",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9fe7f1352d9a37fe033673715ffa3f63a069adaf",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/9fe7f1352d9a37fe033673715ffa3f63a069adaf"
+    },
+    {
+      "path": "results/jaAcrGlau1_Acropora_glauca/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5835a0ca6b9b17399d54ff0e644f1ebecb1a059",
+      "size": 994,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d5835a0ca6b9b17399d54ff0e644f1ebecb1a059"
+    },
+    {
+      "path": "results/jaAcrGlau1_Acropora_glauca/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ac578e9db998e55a6f5d00918cf7b9f7b244f98",
+      "size": 6831092,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9ac578e9db998e55a6f5d00918cf7b9f7b244f98"
+    },
+    {
+      "path": "results/jaAcrGlau1_Acropora_glauca/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2d6a1caa313183335fa7a2e3bea91c43e61c907",
+      "size": 11261549,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d2d6a1caa313183335fa7a2e3bea91c43e61c907"
+    },
+    {
+      "path": "results/jaAcrGlau1_Acropora_glauca/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "114bcabea5b94bb3c540ffc9f5f90f0b79778929",
+      "size": 5132681,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/114bcabea5b94bb3c540ffc9f5f90f0b79778929"
+    },
+    {
+      "path": "results/jaAcrGlau1_Acropora_glauca/jaAcrGlau1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647f43799ba83b0ced571e8a16027132ffcf59f3",
+      "size": 4674940,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/647f43799ba83b0ced571e8a16027132ffcf59f3"
+    },
+    {
+      "path": "results/jaAcrGlau1_Acropora_glauca/jaAcrGlau1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60e75fe46150d20a2bf3294c0484eb0abe8a28c5",
+      "size": 12809992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/60e75fe46150d20a2bf3294c0484eb0abe8a28c5"
+    },
+    {
+      "path": "results/jaAcrGlau1_Acropora_glauca/jaAcrGlau1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f889c6bffcf95a565e677391231125732d941eca",
+      "size": 182,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f889c6bffcf95a565e677391231125732d941eca"
+    },
+    {
+      "path": "results/jaAcrGlau1_Acropora_glauca/jaAcrGlau1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78acd0040af936131c2dcc6f04b91cf1dead23a0",
+      "size": 161782,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/78acd0040af936131c2dcc6f04b91cf1dead23a0"
+    },
+    {
+      "path": "results/jaAcrHyac4_Acropora_hyacinthus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26571038daf2af52635cce059e654790803df08c",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/26571038daf2af52635cce059e654790803df08c"
+    },
+    {
+      "path": "results/jaAcrHyac4_Acropora_hyacinthus/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caa75f147e1743d40c4e50f4c9aef940877b39e2",
+      "size": 992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/caa75f147e1743d40c4e50f4c9aef940877b39e2"
+    },
+    {
+      "path": "results/jaAcrHyac4_Acropora_hyacinthus/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5c0c27c11e2afe5fa2fb4d93fe04973da51308c",
+      "size": 7508107,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b5c0c27c11e2afe5fa2fb4d93fe04973da51308c"
+    },
+    {
+      "path": "results/jaAcrHyac4_Acropora_hyacinthus/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff94819a7fc20416de28637cf84d49fadcdc7a0",
+      "size": 12502251,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3ff94819a7fc20416de28637cf84d49fadcdc7a0"
+    },
+    {
+      "path": "results/jaAcrHyac4_Acropora_hyacinthus/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5031580498dcac52759428623e34c0818de6aaa5",
+      "size": 5926547,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5031580498dcac52759428623e34c0818de6aaa5"
+    },
+    {
+      "path": "results/jaAcrHyac4_Acropora_hyacinthus/jaAcrHyac4.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45a140a8a3ad65b8248b6d8b68320022a166aa35",
+      "size": 4893568,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/45a140a8a3ad65b8248b6d8b68320022a166aa35"
+    },
+    {
+      "path": "results/jaAcrHyac4_Acropora_hyacinthus/jaAcrHyac4.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "280d8966ec8224cd7b0bcdea82e8e177d2198bc3",
+      "size": 14288414,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/280d8966ec8224cd7b0bcdea82e8e177d2198bc3"
+    },
+    {
+      "path": "results/jaAcrHyac4_Acropora_hyacinthus/jaAcrHyac4.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e74001f35823a3453d00247ca3dacf814109a6f",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4e74001f35823a3453d00247ca3dacf814109a6f"
+    },
+    {
+      "path": "results/jaAcrHyac4_Acropora_hyacinthus/jaAcrHyac4_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5481e6b585f238f7cd4e608dcc2933d25f7af7ff",
+      "size": 159203,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5481e6b585f238f7cd4e608dcc2933d25f7af7ff"
+    },
+    {
+      "path": "results/jaAcrLori1_Acropora_loripes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ade783cd997195b6be5097596e58160bfb333f3c",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/ade783cd997195b6be5097596e58160bfb333f3c"
+    },
+    {
+      "path": "results/jaAcrLori1_Acropora_loripes/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7afb5707e56219f273c24aa5736e0c14f50c46a",
+      "size": 992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f7afb5707e56219f273c24aa5736e0c14f50c46a"
+    },
+    {
+      "path": "results/jaAcrLori1_Acropora_loripes/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb88dc097cd325e751958c86553881b8fe65f6b",
+      "size": 6741982,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6eb88dc097cd325e751958c86553881b8fe65f6b"
+    },
+    {
+      "path": "results/jaAcrLori1_Acropora_loripes/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74296b13de20289db51041b80a907c657fd4bf83",
+      "size": 11056454,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/74296b13de20289db51041b80a907c657fd4bf83"
+    },
+    {
+      "path": "results/jaAcrLori1_Acropora_loripes/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "381478b37a6f6286d216a2e9b0f93f7372acc83b",
+      "size": 4977237,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/381478b37a6f6286d216a2e9b0f93f7372acc83b"
+    },
+    {
+      "path": "results/jaAcrLori1_Acropora_loripes/jaAcrLori1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6b43128ba4caf5c1637b3ff754dcfff7d9051cf",
+      "size": 4654765,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c6b43128ba4caf5c1637b3ff754dcfff7d9051cf"
+    },
+    {
+      "path": "results/jaAcrLori1_Acropora_loripes/jaAcrLori1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "926341126676d5057df5b8ffdaaf2ac8815314e6",
+      "size": 12570349,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/926341126676d5057df5b8ffdaaf2ac8815314e6"
+    },
+    {
+      "path": "results/jaAcrLori1_Acropora_loripes/jaAcrLori1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a88231e28b50e107764601b6164789c62e09fd39",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a88231e28b50e107764601b6164789c62e09fd39"
+    },
+    {
+      "path": "results/jaAcrLori1_Acropora_loripes/jaAcrLori1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e86c17525e22ca0504b40339e69cc6cf910207fd",
+      "size": 163660,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e86c17525e22ca0504b40339e69cc6cf910207fd"
+    },
+    {
+      "path": "results/jaAcrMuri1_Acropora_muricata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a821750634b3f5d4adc3393fe7332447c07028cc",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/a821750634b3f5d4adc3393fe7332447c07028cc"
+    },
+    {
+      "path": "results/jaAcrMuri1_Acropora_muricata/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ae5d68f3b7bd930b4688ecf6a47c866b1426129",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5ae5d68f3b7bd930b4688ecf6a47c866b1426129"
+    },
+    {
+      "path": "results/jaAcrMuri1_Acropora_muricata/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec9173d3953966c47e791474d854acdc37e83070",
+      "size": 7004245,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ec9173d3953966c47e791474d854acdc37e83070"
+    },
+    {
+      "path": "results/jaAcrMuri1_Acropora_muricata/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e327ea14968e670fe2be2712ab5c7f12436b9770",
+      "size": 11523898,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e327ea14968e670fe2be2712ab5c7f12436b9770"
+    },
+    {
+      "path": "results/jaAcrMuri1_Acropora_muricata/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "733a02b664ccde3a8928697952157a15d9b5e508",
+      "size": 5548209,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/733a02b664ccde3a8928697952157a15d9b5e508"
+    },
+    {
+      "path": "results/jaAcrMuri1_Acropora_muricata/jaAcrMuri1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5104302f789f5aabfb985c8566bfcfc2a07d1f34",
+      "size": 4723221,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5104302f789f5aabfb985c8566bfcfc2a07d1f34"
+    },
+    {
+      "path": "results/jaAcrMuri1_Acropora_muricata/jaAcrMuri1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "946f5b4bd7ae7a4163b13dc5cfd003904893942b",
+      "size": 13545333,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/946f5b4bd7ae7a4163b13dc5cfd003904893942b"
+    },
+    {
+      "path": "results/jaAcrMuri1_Acropora_muricata/jaAcrMuri1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1070edb85dec2385d1432f2e686e78092713a71a",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1070edb85dec2385d1432f2e686e78092713a71a"
+    },
+    {
+      "path": "results/jaAcrMuri1_Acropora_muricata/jaAcrMuri1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3995acd90ca2d90d59b4a79178c46259823a4c65",
+      "size": 160929,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3995acd90ca2d90d59b4a79178c46259823a4c65"
+    },
+    {
+      "path": "results/jaAcrPala1_Acropora_palmata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2757d5cd235842b50bf6cc604489d1bb0381e0c",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/a2757d5cd235842b50bf6cc604489d1bb0381e0c"
+    },
+    {
+      "path": "results/jaAcrPala1_Acropora_palmata/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d474ab28eb207ab027420cdd7b6a3e5458ed238a",
+      "size": 990,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d474ab28eb207ab027420cdd7b6a3e5458ed238a"
+    },
+    {
+      "path": "results/jaAcrPala1_Acropora_palmata/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d14930e5f255cc416b77ae118535e2b0d56097d4",
+      "size": 6736070,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d14930e5f255cc416b77ae118535e2b0d56097d4"
+    },
+    {
+      "path": "results/jaAcrPala1_Acropora_palmata/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2df137a28d8d99b482c3deb99e7da1a306b4ae6",
+      "size": 11100826,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f2df137a28d8d99b482c3deb99e7da1a306b4ae6"
+    },
+    {
+      "path": "results/jaAcrPala1_Acropora_palmata/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e2d033d170c94ae605c55686fb83a7e7df05577",
+      "size": 5441275,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/2e2d033d170c94ae605c55686fb83a7e7df05577"
+    },
+    {
+      "path": "results/jaAcrPala1_Acropora_palmata/jaAcrPala1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e310b2ea63ccfcc8c3ec874903d81d170578cc9c",
+      "size": 4592195,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e310b2ea63ccfcc8c3ec874903d81d170578cc9c"
+    },
+    {
+      "path": "results/jaAcrPala1_Acropora_palmata/jaAcrPala1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f52d8cc349b4b5d3149cea298b0d2e091c15870",
+      "size": 13250495,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4f52d8cc349b4b5d3149cea298b0d2e091c15870"
+    },
+    {
+      "path": "results/jaAcrPala1_Acropora_palmata/jaAcrPala1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9726d96152ed7028102073d4e9f2966b1e4c5d45",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9726d96152ed7028102073d4e9f2966b1e4c5d45"
+    },
+    {
+      "path": "results/jaAcrPala1_Acropora_palmata/jaAcrPala1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb67a1b850a26213aab8af2921c178b2b88f136",
+      "size": 161238,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3fb67a1b850a26213aab8af2921c178b2b88f136"
+    },
+    {
+      "path": "results/jaAcrPulc1_Acropora_pulchra",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7df0821af14403756de13814763ecd087093a9c7",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/7df0821af14403756de13814763ecd087093a9c7"
+    },
+    {
+      "path": "results/jaAcrPulc1_Acropora_pulchra/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "718ab0482225d94968d0aadd0b62332a3c76416c",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/718ab0482225d94968d0aadd0b62332a3c76416c"
+    },
+    {
+      "path": "results/jaAcrPulc1_Acropora_pulchra/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b59852f9ef902ff8946bc8e462eb50a23dd8e239",
+      "size": 7291258,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b59852f9ef902ff8946bc8e462eb50a23dd8e239"
+    },
+    {
+      "path": "results/jaAcrPulc1_Acropora_pulchra/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "583dcb1bb822f85e6d7202f7b08c72ab53a7b5e2",
+      "size": 12063045,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/583dcb1bb822f85e6d7202f7b08c72ab53a7b5e2"
+    },
+    {
+      "path": "results/jaAcrPulc1_Acropora_pulchra/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225b8114e1efbee67983c893e02c525564498f60",
+      "size": 5702931,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/225b8114e1efbee67983c893e02c525564498f60"
+    },
+    {
+      "path": "results/jaAcrPulc1_Acropora_pulchra/jaAcrPulc1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa800b318af000e3270463bcc669294159a7eb95",
+      "size": 4856879,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/aa800b318af000e3270463bcc669294159a7eb95"
+    },
+    {
+      "path": "results/jaAcrPulc1_Acropora_pulchra/jaAcrPulc1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcbdf58094f38318b32abd7153ad282504412dbd",
+      "size": 13897496,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fcbdf58094f38318b32abd7153ad282504412dbd"
+    },
+    {
+      "path": "results/jaAcrPulc1_Acropora_pulchra/jaAcrPulc1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a09bebb7eda053bf32cdb61e33f13a14df2f1aa5",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a09bebb7eda053bf32cdb61e33f13a14df2f1aa5"
+    },
+    {
+      "path": "results/jaAcrPulc1_Acropora_pulchra/jaAcrPulc1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99ae3bc16e39b729ead298d025b6aff23761ee30",
+      "size": 160584,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/99ae3bc16e39b729ead298d025b6aff23761ee30"
+    },
+    {
+      "path": "results/jaAcrSpat14_Acropora_spathulata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "527ac4cde04539b79a1cbdede11ae8dd0bffa9cc",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/527ac4cde04539b79a1cbdede11ae8dd0bffa9cc"
+    },
+    {
+      "path": "results/jaAcrSpat14_Acropora_spathulata/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31fd07681dbbb3643afe4d82d49776a0683ea391",
+      "size": 1002,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/31fd07681dbbb3643afe4d82d49776a0683ea391"
+    },
+    {
+      "path": "results/jaAcrSpat14_Acropora_spathulata/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71dcb3741e18b363244cb595f30fd38452f969c6",
+      "size": 7532727,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/71dcb3741e18b363244cb595f30fd38452f969c6"
+    },
+    {
+      "path": "results/jaAcrSpat14_Acropora_spathulata/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27d57509b3f7dfa9b4dd8d19cdb14cf17b5fbd25",
+      "size": 12509596,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/27d57509b3f7dfa9b4dd8d19cdb14cf17b5fbd25"
+    },
+    {
+      "path": "results/jaAcrSpat14_Acropora_spathulata/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "390a5e7ddd0ff60fd3739ffd565a8872d503c515",
+      "size": 5878461,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/390a5e7ddd0ff60fd3739ffd565a8872d503c515"
+    },
+    {
+      "path": "results/jaAcrSpat14_Acropora_spathulata/jaAcrSpat14.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2163498b71265c4e2d46a0eadab99c1f0cf32a70",
+      "size": 4939843,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/2163498b71265c4e2d46a0eadab99c1f0cf32a70"
+    },
+    {
+      "path": "results/jaAcrSpat14_Acropora_spathulata/jaAcrSpat14.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1b79087954839cb87d2889a41764dc476c43a03",
+      "size": 14262905,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e1b79087954839cb87d2889a41764dc476c43a03"
+    },
+    {
+      "path": "results/jaAcrSpat14_Acropora_spathulata/jaAcrSpat14.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13a9130aa52ffd8f7e92688e27dabd9c7835bced",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/13a9130aa52ffd8f7e92688e27dabd9c7835bced"
+    },
+    {
+      "path": "results/jaAcrSpat14_Acropora_spathulata/jaAcrSpat14_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51ae17460bd1c9032e4a3bd14330a9b6debe5ecb",
+      "size": 160223,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/51ae17460bd1c9032e4a3bd14330a9b6debe5ecb"
+    },
+    {
+      "path": "results/jaAcrSpic1_Acropora_spicifera",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e65b9db822e332765273e59e89894d95154f7200",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/e65b9db822e332765273e59e89894d95154f7200"
+    },
+    {
+      "path": "results/jaAcrSpic1_Acropora_spicifera/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1850f9ffb9651ae5fc2532348b3f963de9ea129b",
+      "size": 994,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1850f9ffb9651ae5fc2532348b3f963de9ea129b"
+    },
+    {
+      "path": "results/jaAcrSpic1_Acropora_spicifera/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10d136b742fc730bc33c6ba1ad28a48a1cb559b6",
+      "size": 7283296,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/10d136b742fc730bc33c6ba1ad28a48a1cb559b6"
+    },
+    {
+      "path": "results/jaAcrSpic1_Acropora_spicifera/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9279909292bcebc4bba005babc6f3a6d9a94b576",
+      "size": 12070105,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9279909292bcebc4bba005babc6f3a6d9a94b576"
+    },
+    {
+      "path": "results/jaAcrSpic1_Acropora_spicifera/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09b6944bc464c9a1be3752a7514fb0a3fd083e47",
+      "size": 5692329,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/09b6944bc464c9a1be3752a7514fb0a3fd083e47"
+    },
+    {
+      "path": "results/jaAcrSpic1_Acropora_spicifera/jaAcrSpic1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ef57ab2b5e899ba56cfd30327a66aef0b1a1b6",
+      "size": 4790317,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/84ef57ab2b5e899ba56cfd30327a66aef0b1a1b6"
+    },
+    {
+      "path": "results/jaAcrSpic1_Acropora_spicifera/jaAcrSpic1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbc2a680da6b188a058602a6b05e30605ef8577",
+      "size": 13820044,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/acbc2a680da6b188a058602a6b05e30605ef8577"
+    },
+    {
+      "path": "results/jaAcrSpic1_Acropora_spicifera/jaAcrSpic1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a795c28f2d8f62cda54d284bb926a466b23cc5",
+      "size": 182,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a5a795c28f2d8f62cda54d284bb926a466b23cc5"
+    },
+    {
+      "path": "results/jaAcrSpic1_Acropora_spicifera/jaAcrSpic1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d97d1ff3b13b476c81d22b1792bc41c6565389b4",
+      "size": 160928,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d97d1ff3b13b476c81d22b1792bc41c6565389b4"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b87e0d27c3d144efea55b8c4ea7475d5ed1620d7",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/b87e0d27c3d144efea55b8c4ea7475d5ed1620d7"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d35f94e481809da8bfd7cb16a3bdd57ba5567ba9",
+      "size": 867,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d35f94e481809da8bfd7cb16a3bdd57ba5567ba9"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e857417a141cc3bbc898776fc003cb40d0b51d6",
+      "size": 8560272,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/8e857417a141cc3bbc898776fc003cb40d0b51d6"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cc368ed2eec0bc0972043bf56bec78f959a42ea",
+      "size": 14061961,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6cc368ed2eec0bc0972043bf56bec78f959a42ea"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb3ad49564ad7d8f30f9d2edcc0d8242fe74e40d",
+      "size": 5977833,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/bb3ad49564ad7d8f30f9d2edcc0d8242fe74e40d"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/galba.aa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c68e3cccc3eda61be8adc7a71f5c1cb1071de465",
+      "size": 7296656,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c68e3cccc3eda61be8adc7a71f5c1cb1071de465"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/galba.gtf.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70adf45f7ce7afe6bd7ded7ea6b53ce2d133302a",
+      "size": 3676388,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/70adf45f7ce7afe6bd7ded7ea6b53ce2d133302a"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/jaBlaWell11.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c6656cbd86c3f567e3fe3bc42cdff80ca812c81",
+      "size": 5243875,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6c6656cbd86c3f567e3fe3bc42cdff80ca812c81"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/jaBlaWell11.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e75cee2a5be6b591bf91e997730a09719f59abb",
+      "size": 14679921,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5e75cee2a5be6b591bf91e997730a09719f59abb"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/jaBlaWell11.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68721badcf813e6706a876c1b24cb0ce9aaa6f31",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/68721badcf813e6706a876c1b24cb0ce9aaa6f31"
+    },
+    {
+      "path": "results/jaBlaWell11_Blastomussa_wellsi/jaBlaWell11_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d4bb86c1336cf60cd49dbd335d2abff8136cf3",
+      "size": 163959,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/81d4bb86c1336cf60cd49dbd335d2abff8136cf3"
+    },
+    {
+      "path": "results/jaCauFurc1_Caulastraea_furcata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "880cf4dfb6c03b7056dc1751386f1604f355ea86",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/880cf4dfb6c03b7056dc1751386f1604f355ea86"
+    },
+    {
+      "path": "results/jaCauFurc1_Caulastraea_furcata/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5906d34b169a540e453b8f22e8e9a3f59f138f25",
+      "size": 984,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5906d34b169a540e453b8f22e8e9a3f59f138f25"
+    },
+    {
+      "path": "results/jaCauFurc1_Caulastraea_furcata/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5a3b698e963287aa8373569e711c47963895a1c",
+      "size": 8505338,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d5a3b698e963287aa8373569e711c47963895a1c"
+    },
+    {
+      "path": "results/jaCauFurc1_Caulastraea_furcata/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63b441aa786ba1429a78ae10d42e0267e208bef5",
+      "size": 14001473,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/63b441aa786ba1429a78ae10d42e0267e208bef5"
+    },
+    {
+      "path": "results/jaCauFurc1_Caulastraea_furcata/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ebb5288e516779cd442876a5dbc9b1379816ae",
+      "size": 6062429,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/02ebb5288e516779cd442876a5dbc9b1379816ae"
+    },
+    {
+      "path": "results/jaCauFurc1_Caulastraea_furcata/jaCauFurc1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6d1fe3c320566e5b878a4184c51277d9616e3b",
+      "size": 5701725,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/0c6d1fe3c320566e5b878a4184c51277d9616e3b"
+    },
+    {
+      "path": "results/jaCauFurc1_Caulastraea_furcata/jaCauFurc1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94422d35606e04fd3ceb224f844e2097c7bd83a6",
+      "size": 15355814,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/94422d35606e04fd3ceb224f844e2097c7bd83a6"
+    },
+    {
+      "path": "results/jaCauFurc1_Caulastraea_furcata/jaCauFurc1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdf3e1985c94a9845da838f6ce50c0c97556cbcf",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/bdf3e1985c94a9845da838f6ce50c0c97556cbcf"
+    },
+    {
+      "path": "results/jaCauFurc1_Caulastraea_furcata/jaCauFurc1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "675fb3434740a96fe04f0213f3938ca3f567d8f6",
+      "size": 163909,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/675fb3434740a96fe04f0213f3938ca3f567d8f6"
+    },
+    {
+      "path": "results/jaCypSala7_Cyphastrea_salae",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3630fa1f6aca217b5dec96cc0423bf980cf3178",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/e3630fa1f6aca217b5dec96cc0423bf980cf3178"
+    },
+    {
+      "path": "results/jaCypSala7_Cyphastrea_salae/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc354ce6d7ffe8214a9b58f9e48c39407fa04379",
+      "size": 992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/dc354ce6d7ffe8214a9b58f9e48c39407fa04379"
+    },
+    {
+      "path": "results/jaCypSala7_Cyphastrea_salae/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30cae1782f02e33e58931d0ea1722ec1b7b5d9c4",
+      "size": 7563750,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/30cae1782f02e33e58931d0ea1722ec1b7b5d9c4"
+    },
+    {
+      "path": "results/jaCypSala7_Cyphastrea_salae/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b5cb96a8f9f25001d5d8dfac8d0d7aa2b73d765",
+      "size": 12461035,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7b5cb96a8f9f25001d5d8dfac8d0d7aa2b73d765"
+    },
+    {
+      "path": "results/jaCypSala7_Cyphastrea_salae/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "177a68bd8b0e1b1b2b28d4f1b05d5c7232bd8143",
+      "size": 5485685,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/177a68bd8b0e1b1b2b28d4f1b05d5c7232bd8143"
+    },
+    {
+      "path": "results/jaCypSala7_Cyphastrea_salae/jaCypSala7.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9b437164aa10a50deb754dbd5604c2e8f52ba70",
+      "size": 5250264,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b9b437164aa10a50deb754dbd5604c2e8f52ba70"
+    },
+    {
+      "path": "results/jaCypSala7_Cyphastrea_salae/jaCypSala7.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fe0eadaf66882add0624f3986770e464420824d",
+      "size": 13978919,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7fe0eadaf66882add0624f3986770e464420824d"
+    },
+    {
+      "path": "results/jaCypSala7_Cyphastrea_salae/jaCypSala7.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6c3d992c0cd783c7e30c764df0bbae506b3de33",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a6c3d992c0cd783c7e30c764df0bbae506b3de33"
+    },
+    {
+      "path": "results/jaCypSala7_Cyphastrea_salae/jaCypSala7_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e4eee3134a3c84555b2de4f1fed0c75e72185ea",
+      "size": 162144,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7e4eee3134a3c84555b2de4f1fed0c75e72185ea"
+    },
+    {
+      "path": "results/jaDenCyli1_Dendrogyra_cylindrus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0ec83b51daebd358d5ca8c5291cec3481ae2737",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/d0ec83b51daebd358d5ca8c5291cec3481ae2737"
+    },
+    {
+      "path": "results/jaDenCyli1_Dendrogyra_cylindrus/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6b734f87eaf963b22f2319ab6eb2b57358f1ea0",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c6b734f87eaf963b22f2319ab6eb2b57358f1ea0"
+    },
+    {
+      "path": "results/jaDenCyli1_Dendrogyra_cylindrus/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffde8c244a1245066929ccd1d84072055d12f802",
+      "size": 8225158,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ffde8c244a1245066929ccd1d84072055d12f802"
+    },
+    {
+      "path": "results/jaDenCyli1_Dendrogyra_cylindrus/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7e5167f60da921a837345e4937113818f7b9a81",
+      "size": 13740466,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d7e5167f60da921a837345e4937113818f7b9a81"
+    },
+    {
+      "path": "results/jaDenCyli1_Dendrogyra_cylindrus/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24a45d6eb832ff1905cc62a282c2f97e2dbf6e3c",
+      "size": 6183787,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/24a45d6eb832ff1905cc62a282c2f97e2dbf6e3c"
+    },
+    {
+      "path": "results/jaDenCyli1_Dendrogyra_cylindrus/jaDenCyli1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "099126f9c23071777c7292795992c41c41f49ddf",
+      "size": 5375583,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/099126f9c23071777c7292795992c41c41f49ddf"
+    },
+    {
+      "path": "results/jaDenCyli1_Dendrogyra_cylindrus/jaDenCyli1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "809e974d4bb68e047ecf4144664bc368296846d5",
+      "size": 15182784,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/809e974d4bb68e047ecf4144664bc368296846d5"
+    },
+    {
+      "path": "results/jaDenCyli1_Dendrogyra_cylindrus/jaDenCyli1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe12ac9c7dc48d98fe4f418095e50095e9b74d2a",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fe12ac9c7dc48d98fe4f418095e50095e9b74d2a"
+    },
+    {
+      "path": "results/jaDenCyli1_Dendrogyra_cylindrus/jaDenCyli1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0435ae6b3555435419684a5982eee293c6df10c",
+      "size": 160595,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c0435ae6b3555435419684a5982eee293c6df10c"
+    },
+    {
+      "path": "results/jaDipLaby1_Diploria_labyrinthiformis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7fe2e6ec65956d6bfb820902097ce3d65eb3342b",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/7fe2e6ec65956d6bfb820902097ce3d65eb3342b"
+    },
+    {
+      "path": "results/jaDipLaby1_Diploria_labyrinthiformis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f5fd7b41ec13ecb846f96451f8d68d8566776aa",
+      "size": 984,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/2f5fd7b41ec13ecb846f96451f8d68d8566776aa"
+    },
+    {
+      "path": "results/jaDipLaby1_Diploria_labyrinthiformis/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d774211b307e706affdcf55b6879ecf7703da631",
+      "size": 7251117,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d774211b307e706affdcf55b6879ecf7703da631"
+    },
+    {
+      "path": "results/jaDipLaby1_Diploria_labyrinthiformis/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f756a09f2cb5c586dcf52b0f35e0f53711deff",
+      "size": 11989364,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/40f756a09f2cb5c586dcf52b0f35e0f53711deff"
+    },
+    {
+      "path": "results/jaDipLaby1_Diploria_labyrinthiformis/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b2394a8d2a6eccc26d759aa10e323baf9a2ea9f",
+      "size": 5605695,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1b2394a8d2a6eccc26d759aa10e323baf9a2ea9f"
+    },
+    {
+      "path": "results/jaDipLaby1_Diploria_labyrinthiformis/jaDipLaby1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be39bc987902b6b1cbbbb2440782805f6be869f7",
+      "size": 4961493,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/be39bc987902b6b1cbbbb2440782805f6be869f7"
+    },
+    {
+      "path": "results/jaDipLaby1_Diploria_labyrinthiformis/jaDipLaby1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c78b04ee0a49033774451dd811dfcc1a74b83a18",
+      "size": 13947371,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c78b04ee0a49033774451dd811dfcc1a74b83a18"
+    },
+    {
+      "path": "results/jaDipLaby1_Diploria_labyrinthiformis/jaDipLaby1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96a81de000ef82a609224a9a8914dcd0b5b15f09",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/96a81de000ef82a609224a9a8914dcd0b5b15f09"
+    },
+    {
+      "path": "results/jaDipLaby1_Diploria_labyrinthiformis/jaDipLaby1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3502cb5451c17d9b28a4a8fca42ef8f9a9f718ae",
+      "size": 161749,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3502cb5451c17d9b28a4a8fca42ef8f9a9f718ae"
+    },
+    {
+      "path": "results/jaDunAxif1_Duncanopsammia_axifuga",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5baaf3fa9ab306ac5e6da43d43cbf6dc659cbb4",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/e5baaf3fa9ab306ac5e6da43d43cbf6dc659cbb4"
+    },
+    {
+      "path": "results/jaDunAxif1_Duncanopsammia_axifuga/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a68378a7044ce59ad980c97cbae8da7316b5cad",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/8a68378a7044ce59ad980c97cbae8da7316b5cad"
+    },
+    {
+      "path": "results/jaDunAxif1_Duncanopsammia_axifuga/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcddc109b8f9c7d9f33a9547d838097f3a67d635",
+      "size": 7707348,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/dcddc109b8f9c7d9f33a9547d838097f3a67d635"
+    },
+    {
+      "path": "results/jaDunAxif1_Duncanopsammia_axifuga/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28b6b0b47d3fa960e9b353c282b92e6c07467d8",
+      "size": 12719443,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f28b6b0b47d3fa960e9b353c282b92e6c07467d8"
+    },
+    {
+      "path": "results/jaDunAxif1_Duncanopsammia_axifuga/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87c960fa94a85ba9ca3782d58fb3c5b1b21d079f",
+      "size": 5887008,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/87c960fa94a85ba9ca3782d58fb3c5b1b21d079f"
+    },
+    {
+      "path": "results/jaDunAxif1_Duncanopsammia_axifuga/jaDunAxif1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c59bbd18d5b7ffd3c9191e2b43597313b500d3f3",
+      "size": 5237735,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c59bbd18d5b7ffd3c9191e2b43597313b500d3f3"
+    },
+    {
+      "path": "results/jaDunAxif1_Duncanopsammia_axifuga/jaDunAxif1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1971e3664b49e70e1ead176ec15096fd2348663",
+      "size": 14569966,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a1971e3664b49e70e1ead176ec15096fd2348663"
+    },
+    {
+      "path": "results/jaDunAxif1_Duncanopsammia_axifuga/jaDunAxif1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "148b0a39e4db369b15e06d05e4afe64c0fa44cc4",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/148b0a39e4db369b15e06d05e4afe64c0fa44cc4"
+    },
+    {
+      "path": "results/jaDunAxif1_Duncanopsammia_axifuga/jaDunAxif1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07cbf7f30bf86a9519ea5d9138b642e5a7610fbd",
+      "size": 159113,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/07cbf7f30bf86a9519ea5d9138b642e5a7610fbd"
+    },
+    {
+      "path": "results/jaEchHorr1_Echinopora_horrida",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43b0f6c30b6240b2aa1e95180470b8c0fc8f60b8",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/43b0f6c30b6240b2aa1e95180470b8c0fc8f60b8"
+    },
+    {
+      "path": "results/jaEchHorr1_Echinopora_horrida/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f84eacaf811a3877405176700261c391e9a43e",
+      "size": 859,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/46f84eacaf811a3877405176700261c391e9a43e"
+    },
+    {
+      "path": "results/jaEchHorr1_Echinopora_horrida/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69a1a1a19a0bd5d4d82820becc4b9260b5d41d20",
+      "size": 11747526,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/69a1a1a19a0bd5d4d82820becc4b9260b5d41d20"
+    },
+    {
+      "path": "results/jaEchHorr1_Echinopora_horrida/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3a76b88f04ef2e3501e8d52e1afc0e98f925add",
+      "size": 19731587,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c3a76b88f04ef2e3501e8d52e1afc0e98f925add"
+    },
+    {
+      "path": "results/jaEchHorr1_Echinopora_horrida/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5effa610a9e79dc3fb158bd413ade1bb674e2abd",
+      "size": 8629713,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5effa610a9e79dc3fb158bd413ade1bb674e2abd"
+    },
+    {
+      "path": "results/jaEchHorr1_Echinopora_horrida/jaEchHorr1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79db819ad0054e9595076bf260fef962d7ccd25e",
+      "size": 6760608,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/79db819ad0054e9595076bf260fef962d7ccd25e"
+    },
+    {
+      "path": "results/jaEchHorr1_Echinopora_horrida/jaEchHorr1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ed3abab7a48b7d5eacd77d1631761823db4415b",
+      "size": 20239559,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7ed3abab7a48b7d5eacd77d1631761823db4415b"
+    },
+    {
+      "path": "results/jaEchHorr1_Echinopora_horrida/jaEchHorr1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3705d2ba4170aa16748ebf77b5418546c9e3989d",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3705d2ba4170aa16748ebf77b5418546c9e3989d"
+    },
+    {
+      "path": "results/jaEchHorr1_Echinopora_horrida/jaEchHorr1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5305934e0e173b9ce25fdf3963591b3fd49a117e",
+      "size": 164094,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5305934e0e173b9ce25fdf3963591b3fd49a117e"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bd003f25ea0032d5799e43134f17305c37beb4a",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/5bd003f25ea0032d5799e43134f17305c37beb4a"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c5c3e5eb48c5dfad71bf1b1a52b4f11b630d54f",
+      "size": 1003,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9c5c3e5eb48c5dfad71bf1b1a52b4f11b630d54f"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb42687d0d50c3a4734b49332413ffbc45dc09b8",
+      "size": 7523075,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fb42687d0d50c3a4734b49332413ffbc45dc09b8"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85bff9f6393757535a122c3f8df0aa71de566e7b",
+      "size": 12428897,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/85bff9f6393757535a122c3f8df0aa71de566e7b"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d479110461758cdbeced0350fcbb7ec971b3c2da",
+      "size": 5708624,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d479110461758cdbeced0350fcbb7ec971b3c2da"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/galba.aa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3747ff4c4a32be582576bce08c604602e1b05a1a",
+      "size": 7750304,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3747ff4c4a32be582576bce08c604602e1b05a1a"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/galba.gtf.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ced8d997bed03624d786db980b95cda6db91cf61",
+      "size": 3993084,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ced8d997bed03624d786db980b95cda6db91cf61"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/jaGalFasc40.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e188d8f227975807ac3eb68eb70f5a632a021f",
+      "size": 4835841,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c9e188d8f227975807ac3eb68eb70f5a632a021f"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/jaGalFasc40.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b7a5ed899cedba816de743ba0ebf32b979c3071",
+      "size": 13909593,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6b7a5ed899cedba816de743ba0ebf32b979c3071"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/jaGalFasc40.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a18c9bc14a0b3e7650f5b803e930999b13e8eaf9",
+      "size": 182,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a18c9bc14a0b3e7650f5b803e930999b13e8eaf9"
+    },
+    {
+      "path": "results/jaGalFasc40_Galaxea_fascicularis/jaGalFasc40_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a362c85b38456128e22d0b84781092c9db3e1bc",
+      "size": 163206,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4a362c85b38456128e22d0b84781092c9db3e1bc"
+    },
+    {
+      "path": "results/jaIsoPali11_Isopora_palifera",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba8e8b0e97a25220ad8ca174e72f689eeadebb2b",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/ba8e8b0e97a25220ad8ca174e72f689eeadebb2b"
+    },
+    {
+      "path": "results/jaIsoPali11_Isopora_palifera/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1bc494c2f1514be6ecbfd4ac66651b298090e3d",
+      "size": 970,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f1bc494c2f1514be6ecbfd4ac66651b298090e3d"
+    },
+    {
+      "path": "results/jaIsoPali11_Isopora_palifera/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efbd1a046513d86e1f2b6d1821625d344bc35628",
+      "size": 6114765,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/efbd1a046513d86e1f2b6d1821625d344bc35628"
+    },
+    {
+      "path": "results/jaIsoPali11_Isopora_palifera/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fae61110b6359be84ba41c1dd968da8376fa965d",
+      "size": 10091884,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fae61110b6359be84ba41c1dd968da8376fa965d"
+    },
+    {
+      "path": "results/jaIsoPali11_Isopora_palifera/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88cb11cecead3cf88605965a3fd7af94e27139c8",
+      "size": 4934368,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/88cb11cecead3cf88605965a3fd7af94e27139c8"
+    },
+    {
+      "path": "results/jaIsoPali11_Isopora_palifera/jaIsoPali11.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "776dcfc63e4bbb02c7a1fd84c6bbdc36573fb139",
+      "size": 4489871,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/776dcfc63e4bbb02c7a1fd84c6bbdc36573fb139"
+    },
+    {
+      "path": "results/jaIsoPali11_Isopora_palifera/jaIsoPali11.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "010abc814b4329259af4ec15f1bbd0c80ab401a6",
+      "size": 12326863,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/010abc814b4329259af4ec15f1bbd0c80ab401a6"
+    },
+    {
+      "path": "results/jaIsoPali11_Isopora_palifera/jaIsoPali11.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ee1030762d8a7b218bf9f8b7a052ee2ce59b39",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e2ee1030762d8a7b218bf9f8b7a052ee2ce59b39"
+    },
+    {
+      "path": "results/jaIsoPali11_Isopora_palifera/jaIsoPali11_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdb201432ca74fde5ad89de85dc8e66b9c31bbcc",
+      "size": 163925,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/bdb201432ca74fde5ad89de85dc8e66b9c31bbcc"
+    },
+    {
+      "path": "results/jaMadAure2_Madracis_auretenra",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d670faed5239318276ad7a3757a286c549da916",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/6d670faed5239318276ad7a3757a286c549da916"
+    },
+    {
+      "path": "results/jaMadAure2_Madracis_auretenra/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c076bdf9754c6adf2fe7f579ccd232b81c5224e1",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c076bdf9754c6adf2fe7f579ccd232b81c5224e1"
+    },
+    {
+      "path": "results/jaMadAure2_Madracis_auretenra/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b964cb1ffc74867a82363d8f144e9b492336e5b5",
+      "size": 7153268,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b964cb1ffc74867a82363d8f144e9b492336e5b5"
+    },
+    {
+      "path": "results/jaMadAure2_Madracis_auretenra/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97072e813f596f637ac6a338a51cd358603a1f78",
+      "size": 11831124,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/97072e813f596f637ac6a338a51cd358603a1f78"
+    },
+    {
+      "path": "results/jaMadAure2_Madracis_auretenra/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b229c92f95401baf4103dcf7ffcb4fb6eb82a64",
+      "size": 5387136,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9b229c92f95401baf4103dcf7ffcb4fb6eb82a64"
+    },
+    {
+      "path": "results/jaMadAure2_Madracis_auretenra/jaMadAure2.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c4f4476b60f853005435a4331be3ba0d66c4bd",
+      "size": 5076046,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f9c4f4476b60f853005435a4331be3ba0d66c4bd"
+    },
+    {
+      "path": "results/jaMadAure2_Madracis_auretenra/jaMadAure2.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a65872d9acacf104a55712bf66dc6bae08c5171e",
+      "size": 13615942,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a65872d9acacf104a55712bf66dc6bae08c5171e"
+    },
+    {
+      "path": "results/jaMadAure2_Madracis_auretenra/jaMadAure2.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb94f0590a8e1e62770a4ab4f32a707ffe384df5",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fb94f0590a8e1e62770a4ab4f32a707ffe384df5"
+    },
+    {
+      "path": "results/jaMadAure2_Madracis_auretenra/jaMadAure2_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ba3fc7c8323ec37266ace0ea2a13a1e1d8548ba",
+      "size": 161126,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9ba3fc7c8323ec37266ace0ea2a13a1e1d8548ba"
+    },
+    {
+      "path": "results/jaMadSena2_Madracis_senaria",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7c017eab8fe304325bd838b9f78b2e338767b6d",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/e7c017eab8fe304325bd838b9f78b2e338767b6d"
+    },
+    {
+      "path": "results/jaMadSena2_Madracis_senaria/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24ce430bbfed4513ab7e4a7c9c55537cd238a64f",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/24ce430bbfed4513ab7e4a7c9c55537cd238a64f"
+    },
+    {
+      "path": "results/jaMadSena2_Madracis_senaria/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "067399d4945303386131b157b1b9e7ed1c1ba725",
+      "size": 7071459,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/067399d4945303386131b157b1b9e7ed1c1ba725"
+    },
+    {
+      "path": "results/jaMadSena2_Madracis_senaria/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b82f2e66833c766053d9f99e1129efb615b92482",
+      "size": 11638036,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b82f2e66833c766053d9f99e1129efb615b92482"
+    },
+    {
+      "path": "results/jaMadSena2_Madracis_senaria/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c15bccdcfc804646dc7d627af2e540e8554edcb8",
+      "size": 5269243,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c15bccdcfc804646dc7d627af2e540e8554edcb8"
+    },
+    {
+      "path": "results/jaMadSena2_Madracis_senaria/jaMadSena2.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae16aba8be4cdc9ff90f05e4df584f5dbd4203bd",
+      "size": 5042020,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ae16aba8be4cdc9ff90f05e4df584f5dbd4203bd"
+    },
+    {
+      "path": "results/jaMadSena2_Madracis_senaria/jaMadSena2.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18fa2b000a46a34eb00c0c7974246467186c71d7",
+      "size": 13397687,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/18fa2b000a46a34eb00c0c7974246467186c71d7"
+    },
+    {
+      "path": "results/jaMadSena2_Madracis_senaria/jaMadSena2.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b26647c76b584f0278033ae4429caf0e9b599cb9",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b26647c76b584f0278033ae4429caf0e9b599cb9"
+    },
+    {
+      "path": "results/jaMadSena2_Madracis_senaria/jaMadSena2_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "393db5c6e79902195c757f77fc1fff6c627b9d54",
+      "size": 161238,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/393db5c6e79902195c757f77fc1fff6c627b9d54"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ba371c6866abcf5000502927fff3785e729cb18",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/0ba371c6866abcf5000502927fff3785e729cb18"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48f7c1435b42c6cc4e918ea64c5496710b92ad1d",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/48f7c1435b42c6cc4e918ea64c5496710b92ad1d"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79c4dd3a9f19e1e8e3b1b415d8cf687cf9d985ae",
+      "size": 8415805,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/79c4dd3a9f19e1e8e3b1b415d8cf687cf9d985ae"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe742596388dd62e38d691afa8afbe87bd523b73",
+      "size": 14086328,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fe742596388dd62e38d691afa8afbe87bd523b73"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "247ad732961aeda548eda2961395b7487a676957",
+      "size": 6214205,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/247ad732961aeda548eda2961395b7487a676957"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/galba.aa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "490ef62fb0173b761a5aeccff3c05c80de06c351",
+      "size": 8649276,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/490ef62fb0173b761a5aeccff3c05c80de06c351"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/galba.gtf.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c6d92bd5ae7d0b150cb101ebc72d5487bb28fbd",
+      "size": 4547284,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9c6d92bd5ae7d0b150cb101ebc72d5487bb28fbd"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/jaMeaMean2.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa609983e96e33f5eef4908c96a6537391381436",
+      "size": 5499532,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fa609983e96e33f5eef4908c96a6537391381436"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/jaMeaMean2.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e757dacffecd10f539f91bd7e6f392663ff8f19",
+      "size": 15343219,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3e757dacffecd10f539f91bd7e6f392663ff8f19"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/jaMeaMean2.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31e9c250d1041feb8fe222b3cda771f0d1aa5f5c",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/31e9c250d1041feb8fe222b3cda771f0d1aa5f5c"
+    },
+    {
+      "path": "results/jaMeaMean2_Meandrina_meandrites/jaMeaMean2_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "476a71c9bf1c62d3da3103f8324e538645eafa9c",
+      "size": 159552,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/476a71c9bf1c62d3da3103f8324e538645eafa9c"
+    },
+    {
+      "path": "results/jaMicLord3_Micromussa_lordhowensis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8588f8985f1e9dac66c9eeff63cb3d0554c39c8e",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/8588f8985f1e9dac66c9eeff63cb3d0554c39c8e"
+    },
+    {
+      "path": "results/jaMicLord3_Micromussa_lordhowensis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b052b06fad049ffc867506bd5b8ec9767459775d",
+      "size": 992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b052b06fad049ffc867506bd5b8ec9767459775d"
+    },
+    {
+      "path": "results/jaMicLord3_Micromussa_lordhowensis/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efd7ec031c0d1da89817fba351bb09ac450736b5",
+      "size": 8395126,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/efd7ec031c0d1da89817fba351bb09ac450736b5"
+    },
+    {
+      "path": "results/jaMicLord3_Micromussa_lordhowensis/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b1118bbf9e194ade48d5b86a70476337b114764",
+      "size": 13887169,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9b1118bbf9e194ade48d5b86a70476337b114764"
+    },
+    {
+      "path": "results/jaMicLord3_Micromussa_lordhowensis/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7871a51dadd4231ac7efe11df8daff7cb3187510",
+      "size": 6190660,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7871a51dadd4231ac7efe11df8daff7cb3187510"
+    },
+    {
+      "path": "results/jaMicLord3_Micromussa_lordhowensis/jaMicLord3.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d13588825f4bae87141e0f8918928a9df8de651f",
+      "size": 5516036,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d13588825f4bae87141e0f8918928a9df8de651f"
+    },
+    {
+      "path": "results/jaMicLord3_Micromussa_lordhowensis/jaMicLord3.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0475067e78a1857e87f3a5ccdd1b70196ba39d36",
+      "size": 15313452,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/0475067e78a1857e87f3a5ccdd1b70196ba39d36"
+    },
+    {
+      "path": "results/jaMicLord3_Micromussa_lordhowensis/jaMicLord3.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7ec6cda350ecc46f473dda7c96892c7dab93b9f",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b7ec6cda350ecc46f473dda7c96892c7dab93b9f"
+    },
+    {
+      "path": "results/jaMicLord3_Micromussa_lordhowensis/jaMicLord3_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f59c9a687910fa7d585fb7703d223c57dab9cfdd",
+      "size": 162200,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f59c9a687910fa7d585fb7703d223c57dab9cfdd"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e457629ee24985b809952a69d9d9e5801e9cf47e",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/e457629ee24985b809952a69d9d9e5801e9cf47e"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e09133df186980c316e9cd6e696efb1837e85f34",
+      "size": 992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e09133df186980c316e9cd6e696efb1837e85f34"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df1568ba48ea4a0c835be554e52a501ba4d314e4",
+      "size": 8391507,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/df1568ba48ea4a0c835be554e52a501ba4d314e4"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "554c8e656ff2786a9cfe52fb9212f0fc46151ef8",
+      "size": 13844877,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/554c8e656ff2786a9cfe52fb9212f0fc46151ef8"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82df7a677f81f6b7c66e2b53e52383a34b6ce725",
+      "size": 6374642,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/82df7a677f81f6b7c66e2b53e52383a34b6ce725"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/galba.aa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d42f5fcc65d5ef534ef187aaa53879b1298f72dc",
+      "size": 9021132,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d42f5fcc65d5ef534ef187aaa53879b1298f72dc"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/galba.gtf.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3c2cbbbeb07e9bd29b70c1217fefa45c690cc12",
+      "size": 4987044,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d3c2cbbbeb07e9bd29b70c1217fefa45c690cc12"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/jaMonCapi2.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c23300ae5be182126152f2f54da60a788be467ba",
+      "size": 5369994,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c23300ae5be182126152f2f54da60a788be467ba"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/jaMonCapi2.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9101c761ae6228b3c1fd7b9e69dbdfbba039144",
+      "size": 15442133,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f9101c761ae6228b3c1fd7b9e69dbdfbba039144"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/jaMonCapi2.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91286c3d888361469ef6cfb600634de4ec8786f0",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/91286c3d888361469ef6cfb600634de4ec8786f0"
+    },
+    {
+      "path": "results/jaMonCapi2_Montipora_capitata/jaMonCapi2_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89bb6f5090f9c4d560f112c93f9f7b219e8d2bea",
+      "size": 160703,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/89bb6f5090f9c4d560f112c93f9f7b219e8d2bea"
+    },
+    {
+      "path": "results/jaMonCapr1_Montipora_capricornis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4a7802947e3b45c3187b61c4c9031fdbebddca1",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/d4a7802947e3b45c3187b61c4c9031fdbebddca1"
+    },
+    {
+      "path": "results/jaMonCapr1_Montipora_capricornis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d92017641d48935de0221cd4eeebd44196f1643",
+      "size": 992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1d92017641d48935de0221cd4eeebd44196f1643"
+    },
+    {
+      "path": "results/jaMonCapr1_Montipora_capricornis/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45d08f6eed4a365674949c0234b81e9cd098a36a",
+      "size": 8052988,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/45d08f6eed4a365674949c0234b81e9cd098a36a"
+    },
+    {
+      "path": "results/jaMonCapr1_Montipora_capricornis/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e64f7855ecf1db01c2e447d08f1542dc03921211",
+      "size": 13247553,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e64f7855ecf1db01c2e447d08f1542dc03921211"
+    },
+    {
+      "path": "results/jaMonCapr1_Montipora_capricornis/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c0ab1df3e967eb92e6ef1c0bb773a34a3a2c29",
+      "size": 6183767,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/27c0ab1df3e967eb92e6ef1c0bb773a34a3a2c29"
+    },
+    {
+      "path": "results/jaMonCapr1_Montipora_capricornis/jaMonCapr1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b13fc024dcf889ade1b6ecf822c59fbef3cbca2",
+      "size": 5321727,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1b13fc024dcf889ade1b6ecf822c59fbef3cbca2"
+    },
+    {
+      "path": "results/jaMonCapr1_Montipora_capricornis/jaMonCapr1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fc4faf89c81301932f5f30f761e412d683d4267",
+      "size": 15088007,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7fc4faf89c81301932f5f30f761e412d683d4267"
+    },
+    {
+      "path": "results/jaMonCapr1_Montipora_capricornis/jaMonCapr1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e149863f8ff3ed618ae939c7ab44e9ca91c20b9f",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e149863f8ff3ed618ae939c7ab44e9ca91c20b9f"
+    },
+    {
+      "path": "results/jaMonCapr1_Montipora_capricornis/jaMonCapr1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a1bce1043f6df9bc50662ab1f3278b9a35ceaa7",
+      "size": 160288,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9a1bce1043f6df9bc50662ab1f3278b9a35ceaa7"
+    },
+    {
+      "path": "results/jaMonPala3_Montipora_palawanensis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9102dee078deaccc5116d690acc8e0158c9d5ce0",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/9102dee078deaccc5116d690acc8e0158c9d5ce0"
+    },
+    {
+      "path": "results/jaMonPala3_Montipora_palawanensis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de8d4a0b9762ef24cc1c2fe24792e206b5e2cc04",
+      "size": 859,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/de8d4a0b9762ef24cc1c2fe24792e206b5e2cc04"
+    },
+    {
+      "path": "results/jaMonPala3_Montipora_palawanensis/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b1ffc131bbe08e10bdfea5ef657375e6ea91ece",
+      "size": 12222550,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6b1ffc131bbe08e10bdfea5ef657375e6ea91ece"
+    },
+    {
+      "path": "results/jaMonPala3_Montipora_palawanensis/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ab6510fb3dab3649eebb2b57da0e0c365bae726",
+      "size": 20486515,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9ab6510fb3dab3649eebb2b57da0e0c365bae726"
+    },
+    {
+      "path": "results/jaMonPala3_Montipora_palawanensis/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a43877709b95ee943d7afba9fed8f8f458b021d",
+      "size": 8888421,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5a43877709b95ee943d7afba9fed8f8f458b021d"
+    },
+    {
+      "path": "results/jaMonPala3_Montipora_palawanensis/jaMonPala3.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b2ed5af23896b85de0a7cfb5e0b5406da30ab15",
+      "size": 6983326,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/0b2ed5af23896b85de0a7cfb5e0b5406da30ab15"
+    },
+    {
+      "path": "results/jaMonPala3_Montipora_palawanensis/jaMonPala3.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "054604faebdd956f4b4fa0b26dd41065519c52da",
+      "size": 20778794,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/054604faebdd956f4b4fa0b26dd41065519c52da"
+    },
+    {
+      "path": "results/jaMonPala3_Montipora_palawanensis/jaMonPala3.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dd44d34d239516b7444f17e50ffd18cb027f60e",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7dd44d34d239516b7444f17e50ffd18cb027f60e"
+    },
+    {
+      "path": "results/jaMonPala3_Montipora_palawanensis/jaMonPala3_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41b975480eb3e8e50751c6a1f63b05e236f7eb95",
+      "size": 162375,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/41b975480eb3e8e50751c6a1f63b05e236f7eb95"
+    },
+    {
+      "path": "results/jaMonSpea1_Montipora_sp._UDUK0000274",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f76e53321e13ad964ad6e5926ab5cca4768e8217",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/f76e53321e13ad964ad6e5926ab5cca4768e8217"
+    },
+    {
+      "path": "results/jaMonSpea1_Montipora_sp._UDUK0000274/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6daa54d5fe8df300124cf835ae5dce117141607e",
+      "size": 959,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6daa54d5fe8df300124cf835ae5dce117141607e"
+    },
+    {
+      "path": "results/jaMonSpea1_Montipora_sp._UDUK0000274/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b6efad1455b35173b8ba565d441fa1196f3ffcd",
+      "size": 8218773,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3b6efad1455b35173b8ba565d441fa1196f3ffcd"
+    },
+    {
+      "path": "results/jaMonSpea1_Montipora_sp._UDUK0000274/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d59fa81c2be59835d5d3e1d326209cc0b639ac42",
+      "size": 13506400,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d59fa81c2be59835d5d3e1d326209cc0b639ac42"
+    },
+    {
+      "path": "results/jaMonSpea1_Montipora_sp._UDUK0000274/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ebb9428638efe425b85631282c3b1a0ec9ebd61",
+      "size": 6162896,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7ebb9428638efe425b85631282c3b1a0ec9ebd61"
+    },
+    {
+      "path": "results/jaMonSpea1_Montipora_sp._UDUK0000274/jaMonSpea1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c70d10d603b9c019722956a599bb3f47c48542a3",
+      "size": 5367769,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c70d10d603b9c019722956a599bb3f47c48542a3"
+    },
+    {
+      "path": "results/jaMonSpea1_Montipora_sp._UDUK0000274/jaMonSpea1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c015e29d65b24eb263967116e2699c808eb088",
+      "size": 15038337,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/61c015e29d65b24eb263967116e2699c808eb088"
+    },
+    {
+      "path": "results/jaMonSpea1_Montipora_sp._UDUK0000274/jaMonSpea1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4e9339ebcd00de5a0ab8da8c682516ba8cb17",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/2bc4e9339ebcd00de5a0ab8da8c682516ba8cb17"
+    },
+    {
+      "path": "results/jaMonSpea1_Montipora_sp._UDUK0000274/jaMonSpea1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4591a14b338d1d8cdec73171986b673e10507a90",
+      "size": 163227,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4591a14b338d1d8cdec73171986b673e10507a90"
+    },
+    {
+      "path": "results/jaMurMuri3_Muricea_muricata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20dc9beaa7df405c6997b238494f107693258829",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/20dc9beaa7df405c6997b238494f107693258829"
+    },
+    {
+      "path": "results/jaMurMuri3_Muricea_muricata/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08a3c0efe95d0f8f24692c143a63bf25b97df5e2",
+      "size": 468,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/08a3c0efe95d0f8f24692c143a63bf25b97df5e2"
+    },
+    {
+      "path": "results/jaMurMuri3_Muricea_muricata/galba.aa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c5d31ce5298db97f5e9cd808e2000eb287d986c",
+      "size": 7831168,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9c5d31ce5298db97f5e9cd808e2000eb287d986c"
+    },
+    {
+      "path": "results/jaMurMuri3_Muricea_muricata/galba.gtf.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae3261cc73fc7fac8e3ecfd00dcd252e3a5b0765",
+      "size": 4244944,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ae3261cc73fc7fac8e3ecfd00dcd252e3a5b0765"
+    },
+    {
+      "path": "results/jaOcuArbu1_Oculina_arbuscula",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f35962232cf6a75b4a59fd4c3cb3b32171f9ee3",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/8f35962232cf6a75b4a59fd4c3cb3b32171f9ee3"
+    },
+    {
+      "path": "results/jaOcuArbu1_Oculina_arbuscula/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "684f80a4500e2cb70c1773b9e524b46d052a724c",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/684f80a4500e2cb70c1773b9e524b46d052a724c"
+    },
+    {
+      "path": "results/jaOcuArbu1_Oculina_arbuscula/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb43ec9229e56bcb3ba9471e2490a535fb310d50",
+      "size": 8301272,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/cb43ec9229e56bcb3ba9471e2490a535fb310d50"
+    },
+    {
+      "path": "results/jaOcuArbu1_Oculina_arbuscula/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74056c1b49cf82b7adca3de1d078523f50b6a1f4",
+      "size": 13997934,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/74056c1b49cf82b7adca3de1d078523f50b6a1f4"
+    },
+    {
+      "path": "results/jaOcuArbu1_Oculina_arbuscula/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6755c51c641d35b28d06a8879ec3d0141512f344",
+      "size": 6353414,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6755c51c641d35b28d06a8879ec3d0141512f344"
+    },
+    {
+      "path": "results/jaOcuArbu1_Oculina_arbuscula/jaOcuArbu1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cd473fdb9cb2461a181c0d0effbe2a49acac0dc",
+      "size": 5494961,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7cd473fdb9cb2461a181c0d0effbe2a49acac0dc"
+    },
+    {
+      "path": "results/jaOcuArbu1_Oculina_arbuscula/jaOcuArbu1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e55391cf4740c83a0a6bcafc2a785e2d4ab95a47",
+      "size": 15548895,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e55391cf4740c83a0a6bcafc2a785e2d4ab95a47"
+    },
+    {
+      "path": "results/jaOcuArbu1_Oculina_arbuscula/jaOcuArbu1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e561f2ece791cd84c92308d753668b458f17603b",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e561f2ece791cd84c92308d753668b458f17603b"
+    },
+    {
+      "path": "results/jaOcuArbu1_Oculina_arbuscula/jaOcuArbu1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c4eaa7e26ab49e497e8c593e1b49d46c4fac050",
+      "size": 160307,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3c4eaa7e26ab49e497e8c593e1b49d46c4fac050"
+    },
+    {
+      "path": "results/jaOrbFran1_Orbicella_franksi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad8e9c1e0eea28f926f0720cfacb5a606bff7f77",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/ad8e9c1e0eea28f926f0720cfacb5a606bff7f77"
+    },
+    {
+      "path": "results/jaOrbFran1_Orbicella_franksi/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95cd61245e2f44ab66dcb05d675d9bc3df48599a",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/95cd61245e2f44ab66dcb05d675d9bc3df48599a"
+    },
+    {
+      "path": "results/jaOrbFran1_Orbicella_franksi/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e519e8036209b3c2b7bab9b7b98ad5073f4f0fac",
+      "size": 7287691,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e519e8036209b3c2b7bab9b7b98ad5073f4f0fac"
+    },
+    {
+      "path": "results/jaOrbFran1_Orbicella_franksi/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9b0125af9f162584e637dc7c5091bd8a20d43b0",
+      "size": 11990774,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d9b0125af9f162584e637dc7c5091bd8a20d43b0"
+    },
+    {
+      "path": "results/jaOrbFran1_Orbicella_franksi/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2326ca2a87457f918bc90d4ce5f844e4d9d84f41",
+      "size": 5631692,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/2326ca2a87457f918bc90d4ce5f844e4d9d84f41"
+    },
+    {
+      "path": "results/jaOrbFran1_Orbicella_franksi/jaOrbFran1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "236206e52bf70fac660069b3d5075494cdf81f40",
+      "size": 5039146,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/236206e52bf70fac660069b3d5075494cdf81f40"
+    },
+    {
+      "path": "results/jaOrbFran1_Orbicella_franksi/jaOrbFran1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c221490366a4c79f25ead4c8ff61179974f52a4",
+      "size": 13987023,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9c221490366a4c79f25ead4c8ff61179974f52a4"
+    },
+    {
+      "path": "results/jaOrbFran1_Orbicella_franksi/jaOrbFran1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7970b5c6165059a18fc1819c224c5d4a288b335",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b7970b5c6165059a18fc1819c224c5d4a288b335"
+    },
+    {
+      "path": "results/jaOrbFran1_Orbicella_franksi/jaOrbFran1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f7201fca7491ba674b0c3a2f8c7abe42cc105b6",
+      "size": 161350,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/0f7201fca7491ba674b0c3a2f8c7abe42cc105b6"
+    },
+    {
+      "path": "results/jaPocDami1_Pocillopora_damicornis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c5f230f839d5d875ea2cb4fdd255fcfcc65afd3",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/7c5f230f839d5d875ea2cb4fdd255fcfcc65afd3"
+    },
+    {
+      "path": "results/jaPocDami1_Pocillopora_damicornis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd613593dade0e5c080c9c28a0e799052df5b43a",
+      "size": 992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/dd613593dade0e5c080c9c28a0e799052df5b43a"
+    },
+    {
+      "path": "results/jaPocDami1_Pocillopora_damicornis/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeaa124491ee5cd35336ffc524791306bad5b2c2",
+      "size": 7448203,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/eeaa124491ee5cd35336ffc524791306bad5b2c2"
+    },
+    {
+      "path": "results/jaPocDami1_Pocillopora_damicornis/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e19cc744782bace68a5f554aefce95227c247a20",
+      "size": 12444095,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e19cc744782bace68a5f554aefce95227c247a20"
+    },
+    {
+      "path": "results/jaPocDami1_Pocillopora_damicornis/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "301baca8c855736a42282594267098c3270e2b8c",
+      "size": 5959495,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/301baca8c855736a42282594267098c3270e2b8c"
+    },
+    {
+      "path": "results/jaPocDami1_Pocillopora_damicornis/jaPocDami1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c3cdc743e5a7274e4311daf3c373b2f060852d",
+      "size": 5072528,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b4c3cdc743e5a7274e4311daf3c373b2f060852d"
+    },
+    {
+      "path": "results/jaPocDami1_Pocillopora_damicornis/jaPocDami1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b84a0a223c8a54156819aeb2c666550b38e4aff",
+      "size": 14552824,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7b84a0a223c8a54156819aeb2c666550b38e4aff"
+    },
+    {
+      "path": "results/jaPocDami1_Pocillopora_damicornis/jaPocDami1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e472d42334e55fb61970b1c8c664d056b4f2ab2b",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e472d42334e55fb61970b1c8c664d056b4f2ab2b"
+    },
+    {
+      "path": "results/jaPocDami1_Pocillopora_damicornis/jaPocDami1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f04a63a4035b6b733691ea50d3d6fca665f99a9",
+      "size": 160288,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4f04a63a4035b6b733691ea50d3d6fca665f99a9"
+    },
+    {
+      "path": "results/jaPocGran1_Pocillopora_grandis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efd2cf3ba15f767f72246eeb6cac7af2d0d3e70a",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/efd2cf3ba15f767f72246eeb6cac7af2d0d3e70a"
+    },
+    {
+      "path": "results/jaPocGran1_Pocillopora_grandis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "343fe055fd1f9e00d8b1a2077336b4b79a04b068",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/343fe055fd1f9e00d8b1a2077336b4b79a04b068"
+    },
+    {
+      "path": "results/jaPocGran1_Pocillopora_grandis/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "312dfe8870ccd6c1bc5298f18d6810fe6ec7098b",
+      "size": 7375225,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/312dfe8870ccd6c1bc5298f18d6810fe6ec7098b"
+    },
+    {
+      "path": "results/jaPocGran1_Pocillopora_grandis/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19a146af77869e40e19240b87b4a7fa5fd42086a",
+      "size": 12252320,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/19a146af77869e40e19240b87b4a7fa5fd42086a"
+    },
+    {
+      "path": "results/jaPocGran1_Pocillopora_grandis/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dfc6f4914f5951c0fefcef1a7b3313eb422b373",
+      "size": 5853714,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/0dfc6f4914f5951c0fefcef1a7b3313eb422b373"
+    },
+    {
+      "path": "results/jaPocGran1_Pocillopora_grandis/jaPocGran1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85c8ec9d3deaeca810284711c8aaa3423f2a2e86",
+      "size": 5159678,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/85c8ec9d3deaeca810284711c8aaa3423f2a2e86"
+    },
+    {
+      "path": "results/jaPocGran1_Pocillopora_grandis/jaPocGran1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "becc53ec11dff4ae0231a1a74730dab59f67e770",
+      "size": 14441864,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/becc53ec11dff4ae0231a1a74730dab59f67e770"
+    },
+    {
+      "path": "results/jaPocGran1_Pocillopora_grandis/jaPocGran1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb38defd871d1cc2ef7811c03a11337dc5cca4b",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5cb38defd871d1cc2ef7811c03a11337dc5cca4b"
+    },
+    {
+      "path": "results/jaPocGran1_Pocillopora_grandis/jaPocGran1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c1bc6268d30767d5657d1930f56e9bf6e7f35a9",
+      "size": 159269,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5c1bc6268d30767d5657d1930f56e9bf6e7f35a9"
+    },
+    {
+      "path": "results/jaPorCyli1_Porites_cylindrica",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d1fe2098da6cf8729b06676db3ea83518c670fb",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/5d1fe2098da6cf8729b06676db3ea83518c670fb"
+    },
+    {
+      "path": "results/jaPorCyli1_Porites_cylindrica/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24e86963b571257025eb2f1f359b1a8e953e842",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f24e86963b571257025eb2f1f359b1a8e953e842"
+    },
+    {
+      "path": "results/jaPorCyli1_Porites_cylindrica/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1a7ee3d6fe3930fb061a34010bc2aabe5567054",
+      "size": 7985103,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b1a7ee3d6fe3930fb061a34010bc2aabe5567054"
+    },
+    {
+      "path": "results/jaPorCyli1_Porites_cylindrica/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b26358076e67ca1a4628c11b74b401ef507f0b56",
+      "size": 13171226,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b26358076e67ca1a4628c11b74b401ef507f0b56"
+    },
+    {
+      "path": "results/jaPorCyli1_Porites_cylindrica/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ad8f13a078ff3cbe17af62c02305b6c6d835633",
+      "size": 5780712,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4ad8f13a078ff3cbe17af62c02305b6c6d835633"
+    },
+    {
+      "path": "results/jaPorCyli1_Porites_cylindrica/jaPorCyli1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f55525212e6ab622baf1d374e8e17b6a3c445699",
+      "size": 5248814,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f55525212e6ab622baf1d374e8e17b6a3c445699"
+    },
+    {
+      "path": "results/jaPorCyli1_Porites_cylindrica/jaPorCyli1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abb178fe5163915e7496c86d2957da1ff95da631",
+      "size": 14373425,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/abb178fe5163915e7496c86d2957da1ff95da631"
+    },
+    {
+      "path": "results/jaPorCyli1_Porites_cylindrica/jaPorCyli1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8c4f86fdbb6da6e5d921b73947125fabf7aa470",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c8c4f86fdbb6da6e5d921b73947125fabf7aa470"
+    },
+    {
+      "path": "results/jaPorCyli1_Porites_cylindrica/jaPorCyli1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eabebbab98ff7e548f7889cf2bca0e26d0e48d80",
+      "size": 161031,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/eabebbab98ff7e548f7889cf2bca0e26d0e48d80"
+    },
+    {
+      "path": "results/jaPorDiva4_Porites_divaricata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5cdf4b1472220fb6c8b232c5ee6089fb8b647c21",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/5cdf4b1472220fb6c8b232c5ee6089fb8b647c21"
+    },
+    {
+      "path": "results/jaPorDiva4_Porites_divaricata/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "468cbdcabc59711c8da90bf17fe1384077a59b1c",
+      "size": 992,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/468cbdcabc59711c8da90bf17fe1384077a59b1c"
+    },
+    {
+      "path": "results/jaPorDiva4_Porites_divaricata/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "539266f1b75e22237b0f137e7d0e04f15a150776",
+      "size": 7531383,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/539266f1b75e22237b0f137e7d0e04f15a150776"
+    },
+    {
+      "path": "results/jaPorDiva4_Porites_divaricata/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ed768e16f264e9d93d8c7bc864b575cfeb5fb14",
+      "size": 12448692,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4ed768e16f264e9d93d8c7bc864b575cfeb5fb14"
+    },
+    {
+      "path": "results/jaPorDiva4_Porites_divaricata/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0512f1e54d5baf345be3372a9d8f3e1096a618aa",
+      "size": 5751649,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/0512f1e54d5baf345be3372a9d8f3e1096a618aa"
+    },
+    {
+      "path": "results/jaPorDiva4_Porites_divaricata/jaPorDiva4.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be986ba9c3086fb1756312354aa06bf66434198b",
+      "size": 4970028,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/be986ba9c3086fb1756312354aa06bf66434198b"
+    },
+    {
+      "path": "results/jaPorDiva4_Porites_divaricata/jaPorDiva4.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3f14bb894e99b81744f43029d5ffdb10cc6a3f4",
+      "size": 14086043,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c3f14bb894e99b81744f43029d5ffdb10cc6a3f4"
+    },
+    {
+      "path": "results/jaPorDiva4_Porites_divaricata/jaPorDiva4.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90d5725057a569dec91643789c6fa242e886413c",
+      "size": 180,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/90d5725057a569dec91643789c6fa242e886413c"
+    },
+    {
+      "path": "results/jaPorDiva4_Porites_divaricata/jaPorDiva4_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c25f868668919fe515162b9e44b454c409d215f",
+      "size": 158971,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6c25f868668919fe515162b9e44b454c409d215f"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9b48b7bfa5cdecf70dfea11a656f233500c3db6",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/a9b48b7bfa5cdecf70dfea11a656f233500c3db6"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cbeb63ecf520ea3f7f75dd0289a9916d00a6286",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5cbeb63ecf520ea3f7f75dd0289a9916d00a6286"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cab8c2860306381598d07850bbafc59a865bf47",
+      "size": 7797776,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1cab8c2860306381598d07850bbafc59a865bf47"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60bc2ab73e4c42f6f427ea6ca576462f8b9459ab",
+      "size": 12842356,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/60bc2ab73e4c42f6f427ea6ca576462f8b9459ab"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06851c219f12a51633c2f085bff05eae7c061244",
+      "size": 5839564,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/06851c219f12a51633c2f085bff05eae7c061244"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/galba.aa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d047df49879e0e9183575a18c68b0839a675fce",
+      "size": 8640660,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5d047df49879e0e9183575a18c68b0839a675fce"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/galba.gtf.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5edfc83c384c73f9546e3d223527631fec23919d",
+      "size": 4618240,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5edfc83c384c73f9546e3d223527631fec23919d"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/jaPorLute2.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e835eda45936e206f2c564ef96a7e035f9e6d232",
+      "size": 5223507,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e835eda45936e206f2c564ef96a7e035f9e6d232"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/jaPorLute2.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54e878737a262253b9aff1562c9b57356816cd23",
+      "size": 14480193,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/54e878737a262253b9aff1562c9b57356816cd23"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/jaPorLute2.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ace92f0c4d943ffbf12b47b0242e998b72a4c499",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ace92f0c4d943ffbf12b47b0242e998b72a4c499"
+    },
+    {
+      "path": "results/jaPorLute2_Porites_lutea/jaPorLute2_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e27f6ff9a54970f5ebbf5e4d600dfd7cadc2071",
+      "size": 161323,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4e27f6ff9a54970f5ebbf5e4d600dfd7cadc2071"
+    },
+    {
+      "path": "results/jaPorRusx1_Porites_rus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "887126652c1b0bcfd53008147f253ff0d31d3831",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/887126652c1b0bcfd53008147f253ff0d31d3831"
+    },
+    {
+      "path": "results/jaPorRusx1_Porites_rus/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f16380d3b52de1edd4bf11892db692b3dae0b5",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/f2f16380d3b52de1edd4bf11892db692b3dae0b5"
+    },
+    {
+      "path": "results/jaPorRusx1_Porites_rus/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2271d95dfe9472de0fbe1760dd268dc6e99b90e0",
+      "size": 8072368,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/2271d95dfe9472de0fbe1760dd268dc6e99b90e0"
+    },
+    {
+      "path": "results/jaPorRusx1_Porites_rus/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26798bfaf492a2cd05866d4ab1e14ea9cfbbb19f",
+      "size": 13312385,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/26798bfaf492a2cd05866d4ab1e14ea9cfbbb19f"
+    },
+    {
+      "path": "results/jaPorRusx1_Porites_rus/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0aa878c82a602416b3ac1f60049eaac2578daa0",
+      "size": 6106681,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c0aa878c82a602416b3ac1f60049eaac2578daa0"
+    },
+    {
+      "path": "results/jaPorRusx1_Porites_rus/jaPorRusx1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ef4ddae18d631b65bdd3e60cebd9b7744aead2b",
+      "size": 5326260,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/9ef4ddae18d631b65bdd3e60cebd9b7744aead2b"
+    },
+    {
+      "path": "results/jaPorRusx1_Porites_rus/jaPorRusx1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68dfd8f44b8fe26c307c3b53896c959df4dc706b",
+      "size": 14978919,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/68dfd8f44b8fe26c307c3b53896c959df4dc706b"
+    },
+    {
+      "path": "results/jaPorRusx1_Porites_rus/jaPorRusx1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef4300b07f410646d2ce3091a5b71d23fc002b32",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ef4300b07f410646d2ce3091a5b71d23fc002b32"
+    },
+    {
+      "path": "results/jaPorRusx1_Porites_rus/jaPorRusx1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e58a0d090687292ecc207a112569a24f93389a9",
+      "size": 160444,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1e58a0d090687292ecc207a112569a24f93389a9"
+    },
+    {
+      "path": "results/jaRicFlor1_Ricordea_florida",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ac594d29163ceccc0734db19214a873447f7ba7",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/4ac594d29163ceccc0734db19214a873447f7ba7"
+    },
+    {
+      "path": "results/jaRicFlor1_Ricordea_florida/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11b29861c9504c0cab8f690c150b238765e01b65",
+      "size": 571,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/11b29861c9504c0cab8f690c150b238765e01b65"
+    },
+    {
+      "path": "results/jaRicFlor1_Ricordea_florida/braker.aa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23f5a1d1b4ba07c6aebe51a62c39cd94dca80149",
+      "size": 5004056,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/23f5a1d1b4ba07c6aebe51a62c39cd94dca80149"
+    },
+    {
+      "path": "results/jaRicFlor1_Ricordea_florida/braker.gtf.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "304f6be6c22143a57b7795c8d10bb9c210912169",
+      "size": 2665652,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/304f6be6c22143a57b7795c8d10bb9c210912169"
+    },
+    {
+      "path": "results/jaRicFlor1_Ricordea_florida/galba.aa.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "770b58745f646b5f883efb56bb6600aef90236b8",
+      "size": 7968136,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/770b58745f646b5f883efb56bb6600aef90236b8"
+    },
+    {
+      "path": "results/jaRicFlor1_Ricordea_florida/galba.gtf.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a68b051982732c6698a6302b9a6a950cad017c",
+      "size": 4406548,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b5a68b051982732c6698a6302b9a6a950cad017c"
+    },
+    {
+      "path": "results/jaSidRadi1_Siderastrea_radians",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7b2e28372a73e819a83e86f882c30a57069fd0f",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/b7b2e28372a73e819a83e86f882c30a57069fd0f"
+    },
+    {
+      "path": "results/jaSidRadi1_Siderastrea_radians/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0838463e3aa84850ba23c479845c59072d85f2d2",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/0838463e3aa84850ba23c479845c59072d85f2d2"
+    },
+    {
+      "path": "results/jaSidRadi1_Siderastrea_radians/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16f9d2140e2507c5275b28bda1ab9ec01b26a573",
+      "size": 9112172,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/16f9d2140e2507c5275b28bda1ab9ec01b26a573"
+    },
+    {
+      "path": "results/jaSidRadi1_Siderastrea_radians/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2484e3452178542adef6896995e10209f9c809",
+      "size": 15185483,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/2f2484e3452178542adef6896995e10209f9c809"
+    },
+    {
+      "path": "results/jaSidRadi1_Siderastrea_radians/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b12923482b897cbab1a88f4ec7b22cada30976",
+      "size": 6606630,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/95b12923482b897cbab1a88f4ec7b22cada30976"
+    },
+    {
+      "path": "results/jaSidRadi1_Siderastrea_radians/jaSidRadi1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fdefd8fb4e7e93f3d105adb6c8523c8be2be9bb",
+      "size": 5939597,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/8fdefd8fb4e7e93f3d105adb6c8523c8be2be9bb"
+    },
+    {
+      "path": "results/jaSidRadi1_Siderastrea_radians/jaSidRadi1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d13f2ab740197717780c06e28fde8cb75a421a9",
+      "size": 16319318,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/8d13f2ab740197717780c06e28fde8cb75a421a9"
+    },
+    {
+      "path": "results/jaSidRadi1_Siderastrea_radians/jaSidRadi1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8764058506cce4af1137cee805820f3164f0ea6",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/e8764058506cce4af1137cee805820f3164f0ea6"
+    },
+    {
+      "path": "results/jaSidRadi1_Siderastrea_radians/jaSidRadi1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7cf194eb03648badf8133c35db1fe2b042133e5",
+      "size": 163104,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a7cf194eb03648badf8133c35db1fe2b042133e5"
+    },
+    {
+      "path": "results/jaSidSide1_Siderastrea_siderea",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "889d2ab041ca9f505105dab5e7dea9a14cfd8dc4",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/889d2ab041ca9f505105dab5e7dea9a14cfd8dc4"
+    },
+    {
+      "path": "results/jaSidSide1_Siderastrea_siderea/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b0ad3d41eae4c7913f8e2575040cbee5ea6759e",
+      "size": 994,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/6b0ad3d41eae4c7913f8e2575040cbee5ea6759e"
+    },
+    {
+      "path": "results/jaSidSide1_Siderastrea_siderea/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47fe4c4520b2fb65de8ce4aa19842c23f8fdb74b",
+      "size": 9364767,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/47fe4c4520b2fb65de8ce4aa19842c23f8fdb74b"
+    },
+    {
+      "path": "results/jaSidSide1_Siderastrea_siderea/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22b48428aa253cf532b11acec2ed52dd79972da3",
+      "size": 15676123,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/22b48428aa253cf532b11acec2ed52dd79972da3"
+    },
+    {
+      "path": "results/jaSidSide1_Siderastrea_siderea/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd10a892b2ebb96b83bb56490f17f9af9825ba14",
+      "size": 6939837,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fd10a892b2ebb96b83bb56490f17f9af9825ba14"
+    },
+    {
+      "path": "results/jaSidSide1_Siderastrea_siderea/jaSidSide1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3e54f1504749bc06a3ba4a2c83e3821dd88fa76",
+      "size": 5977743,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b3e54f1504749bc06a3ba4a2c83e3821dd88fa76"
+    },
+    {
+      "path": "results/jaSidSide1_Siderastrea_siderea/jaSidSide1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8f79ba8be688d0ea3c74bfba06392ec0f37955",
+      "size": 16865202,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4e8f79ba8be688d0ea3c74bfba06392ec0f37955"
+    },
+    {
+      "path": "results/jaSidSide1_Siderastrea_siderea/jaSidSide1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a45282d240d367f1a7dfc38e8fead5ed6cb0ace",
+      "size": 182,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/4a45282d240d367f1a7dfc38e8fead5ed6cb0ace"
+    },
+    {
+      "path": "results/jaSidSide1_Siderastrea_siderea/jaSidSide1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec46b46d8b1b954556173efdc062e36be6e53a19",
+      "size": 160279,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ec46b46d8b1b954556173efdc062e36be6e53a19"
+    },
+    {
+      "path": "results/jaSteInte3_Stephanocoenia_intersepta",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "840f42e86414288353908f77a4e46b30e33c3cf1",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/840f42e86414288353908f77a4e46b30e33c3cf1"
+    },
+    {
+      "path": "results/jaSteInte3_Stephanocoenia_intersepta/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81f8c38654db346678088a4afbc683017bff8714",
+      "size": 859,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/81f8c38654db346678088a4afbc683017bff8714"
+    },
+    {
+      "path": "results/jaSteInte3_Stephanocoenia_intersepta/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdfeab78023e20c74825243d39e771d0e6be96f4",
+      "size": 10021560,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/fdfeab78023e20c74825243d39e771d0e6be96f4"
+    },
+    {
+      "path": "results/jaSteInte3_Stephanocoenia_intersepta/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c48e85ae89442fe68622b870312daa00ddbc18ee",
+      "size": 16670213,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/c48e85ae89442fe68622b870312daa00ddbc18ee"
+    },
+    {
+      "path": "results/jaSteInte3_Stephanocoenia_intersepta/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb5556759dc9a958e3ecfa052262e3c6523b5749",
+      "size": 7382675,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/eb5556759dc9a958e3ecfa052262e3c6523b5749"
+    },
+    {
+      "path": "results/jaSteInte3_Stephanocoenia_intersepta/jaSteInte3.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fef7c2a1ff6670e3dbb11a8dead74eaf7c67f46",
+      "size": 6103159,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/5fef7c2a1ff6670e3dbb11a8dead74eaf7c67f46"
+    },
+    {
+      "path": "results/jaSteInte3_Stephanocoenia_intersepta/jaSteInte3.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45faa44865d0c0f80b413705bc09b1db3299f559",
+      "size": 17644264,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/45faa44865d0c0f80b413705bc09b1db3299f559"
+    },
+    {
+      "path": "results/jaSteInte3_Stephanocoenia_intersepta/jaSteInte3.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ef9cb5ebef71c483a8f56963f33cfb01630a469",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/1ef9cb5ebef71c483a8f56963f33cfb01630a469"
+    },
+    {
+      "path": "results/jaSteInte3_Stephanocoenia_intersepta/jaSteInte3_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3d3f4b25831a546ea9771b56a480d0cc9b5857c",
+      "size": 162485,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/a3d3f4b25831a546ea9771b56a480d0cc9b5857c"
+    },
+    {
+      "path": "results/jaStyPist1_Stylophora_pistillata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8c3bc90e7ef847028fd2c5c1e47152b775c290b",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/b8c3bc90e7ef847028fd2c5c1e47152b775c290b"
+    },
+    {
+      "path": "results/jaStyPist1_Stylophora_pistillata/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b20eb7483d62ae652494f2848fd9f90541c02c39",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/b20eb7483d62ae652494f2848fd9f90541c02c39"
+    },
+    {
+      "path": "results/jaStyPist1_Stylophora_pistillata/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10cbefc24be807b83dbb793f46e76b7494917e5c",
+      "size": 8132359,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/10cbefc24be807b83dbb793f46e76b7494917e5c"
+    },
+    {
+      "path": "results/jaStyPist1_Stylophora_pistillata/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eae264e5e91d112f536a65cb5debbac30420f709",
+      "size": 13619109,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/eae264e5e91d112f536a65cb5debbac30420f709"
+    },
+    {
+      "path": "results/jaStyPist1_Stylophora_pistillata/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81f72eec12cda459da477cb7adbb4602ba815578",
+      "size": 6426041,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/81f72eec12cda459da477cb7adbb4602ba815578"
+    },
+    {
+      "path": "results/jaStyPist1_Stylophora_pistillata/jaStyPist1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cee6b73c8576bcd0176babb09478b1efcbe06bef",
+      "size": 5348823,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/cee6b73c8576bcd0176babb09478b1efcbe06bef"
+    },
+    {
+      "path": "results/jaStyPist1_Stylophora_pistillata/jaStyPist1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff83c37cb5aa98cc06684357ddb79eaa3062c8d",
+      "size": 15496309,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3ff83c37cb5aa98cc06684357ddb79eaa3062c8d"
+    },
+    {
+      "path": "results/jaStyPist1_Stylophora_pistillata/jaStyPist1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa1a5cce143ff46e533399bbc0ec7c5d4b484eef",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/aa1a5cce143ff46e533399bbc0ec7c5d4b484eef"
+    },
+    {
+      "path": "results/jaStyPist1_Stylophora_pistillata/jaStyPist1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3bb489d3f56e6d76e86cac3ecb9080009438804",
+      "size": 161235,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/d3bb489d3f56e6d76e86cac3ecb9080009438804"
+    },
+    {
+      "path": "results/jaTurReni1_Turbinaria_reniformis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6506916ea52b70d31e25441904482e7895f52ad",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/b6506916ea52b70d31e25441904482e7895f52ad"
+    },
+    {
+      "path": "results/jaTurReni1_Turbinaria_reniformis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073dfc7bccebad1d652d4e25ee43f449a0333174",
+      "size": 993,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/073dfc7bccebad1d652d4e25ee43f449a0333174"
+    },
+    {
+      "path": "results/jaTurReni1_Turbinaria_reniformis/braker.aa.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "620ce53f021539284d8a7a7acc602d520a14f0eb",
+      "size": 7933552,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/620ce53f021539284d8a7a7acc602d520a14f0eb"
+    },
+    {
+      "path": "results/jaTurReni1_Turbinaria_reniformis/braker.codingseq.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdcadc654ea1edbc41d04ddd35eeb6f306b36634",
+      "size": 13187851,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/bdcadc654ea1edbc41d04ddd35eeb6f306b36634"
+    },
+    {
+      "path": "results/jaTurReni1_Turbinaria_reniformis/braker.gtf.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff378e23792f5381c547e62b778bbb90eedbac42",
+      "size": 5530365,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/ff378e23792f5381c547e62b778bbb90eedbac42"
+    },
+    {
+      "path": "results/jaTurReni1_Turbinaria_reniformis/jaTurReni1.emapper.annotations.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be0e4d19e2b13c3cd4ed882d5610045039a9ca05",
+      "size": 5189262,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/be0e4d19e2b13c3cd4ed882d5610045039a9ca05"
+    },
+    {
+      "path": "results/jaTurReni1_Turbinaria_reniformis/jaTurReni1.emapper.decorated.gff.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3df198100812bcfc3e7420803bd64d2ed04635e2",
+      "size": 13914260,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/3df198100812bcfc3e7420803bd64d2ed04635e2"
+    },
+    {
+      "path": "results/jaTurReni1_Turbinaria_reniformis/jaTurReni1.stats",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca34f7a4ea4011f7d645763e6c217a3a6f2b86e",
+      "size": 181,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/bca34f7a4ea4011f7d645763e6c217a3a6f2b86e"
+    },
+    {
+      "path": "results/jaTurReni1_Turbinaria_reniformis/jaTurReni1_busco.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e9d584718a43b4c7fe0d5398a09b9b6f953f102",
+      "size": 164302,
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/blobs/7e9d584718a43b4c7fe0d5398a09b9b6f953f102"
+    }
+  ],
+  "truncated": false
+}

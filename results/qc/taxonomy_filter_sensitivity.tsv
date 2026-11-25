@@ -1,0 +1,9 @@
+scheme	taxonomy_policy	samples	species
+primary_strict_mito_agree	assigned prokaryotes	25	8
+primary_strict_mito_agree	including unassigned	26	8
+sensitivity_strict_all_mitotypes	assigned prokaryotes	28	8
+sensitivity_strict_all_mitotypes	including unassigned	29	8
+sensitivity_broad_mito_agree	assigned prokaryotes	39	9
+sensitivity_broad_mito_agree	including unassigned	40	9
+sensitivity_broad_all_mitotypes	assigned prokaryotes	54	9
+sensitivity_broad_all_mitotypes	including unassigned	55	9

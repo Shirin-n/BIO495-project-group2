@@ -1,0 +1,8 @@
+decision_id	decision	rationale
+D01	Exploratory species-level design	Only eight primary species; samples do not multiply NLR observations
+D02	Keep primary cohort fixed	Separate prespecified sensitivity cohorts prevent outcome-dependent selection
+D03	Canonical candidate loci are the exposure	Operational architecture definition; not functional or total NLR counts
+D04	Repeated 1000-read Shannon	Standardize depth with an explicit seed; saturation is not assumed
+D05	Two species-level association tests	Avoid pseudoreplication and an inflated test menu
+D06	PGLS conditional on suitable tree	Current shared mitochondrial tips cannot represent species branches
+D07	Pilot amendments before association tests	Allow technical corrections without selecting rules for favorable outcomes

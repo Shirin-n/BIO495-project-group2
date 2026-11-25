@@ -1,0 +1,13 @@
+scenario	source_cohort	factor	depth	samples	recorded_colonies	species	lost_primary_species	gained_species_vs_primary	fewer_than_5_species	selected_expedition
+primary_strict_mito_agree	primary_strict_mito_agree	primary	1000	25	25	8			False	
+sensitivity_strict_all_mitotypes	sensitivity_strict_all_mitotypes	sensitivity_strict_all_mitotypes	1000	28	28	8			False	
+sensitivity_broad_mito_agree	sensitivity_broad_mito_agree	sensitivity_broad_mito_agree	1000	39	39	9		Echinopora horrida	False	
+sensitivity_broad_all_mitotypes	sensitivity_broad_all_mitotypes	combined_health_and_mitotype	1000	54	54	9		Echinopora horrida	False	
+sensitivity_strict_mito_with_unassigned	sensitivity_strict_mito_with_unassigned	sensitivity_strict_mito_with_unassigned	1000	26	26	8			False	
+primary_depth_2000	primary_strict_mito_agree	depth	2000	23	23	8			False	
+primary_depth_5000	primary_strict_mito_agree	depth	5000	19	19	8			False	
+primary_depth_10000	primary_strict_mito_agree	depth	10000	16	16	8			False	
+primary_min_2_colonies	primary_strict_mito_agree	colony_count	1000	24	24	7	Caulastraea furcata		False	
+primary_min_3_colonies	primary_strict_mito_agree	colony_count	1000	16	16	3	Acropora hyacinthus;Caulastraea furcata;Galaxea fascicularis;Porites cylindrica;Turbinaria reniformis		True	
+primary_busco_ge_90	primary_strict_mito_agree	annotation_quality	1000	25	25	8			False	
+primary_single_expedition	primary_strict_mito_agree	expedition	1000	12	12	6	Acropora hyacinthus;Galaxea fascicularis		False	E1_Lizard_Island_2014

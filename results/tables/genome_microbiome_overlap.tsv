@@ -1,0 +1,41 @@
+genome_id	species	metadata_match	strict_samples	broad_samples	status
+jaAcrAuse1	Acropora austera	False	0	0	no species-level metadata match
+jaAcrCerv1	Acropora cervicornis	False	0	0	no species-level metadata match
+jaAcrGlau1	Acropora glauca	False	0	0	no species-level metadata match
+jaAcrHyac4	Acropora hyacinthus	True	3	21	candidate; BIOM and phylogeny checks pending
+jaAcrLori1	Acropora loripes	False	0	0	no species-level metadata match
+jaAcrMuri1	Acropora muricata	False	0	0	no species-level metadata match
+jaAcrPala1	Acropora palmata	False	0	0	no species-level metadata match
+jaAcrPulc1	Acropora pulchra	False	0	0	no species-level metadata match
+jaAcrSpat14	Acropora spathulata	False	0	0	no species-level metadata match
+jaAcrSpic1	Acropora spicifera	False	0	0	no species-level metadata match
+jaBlaWell11	Blastomussa wellsi	False	0	0	no species-level metadata match
+jaCauFurc1	Caulastraea furcata	True	1	1	candidate; BIOM and phylogeny checks pending
+jaCypSala7	Cyphastrea salae	False	0	0	no species-level metadata match
+jaDenCyli1	Dendrogyra cylindrus	False	0	0	no species-level metadata match
+jaDipLaby1	Diploria labyrinthiformis	False	0	0	no species-level metadata match
+jaDunAxif1	Duncanopsammia axifuga	False	0	0	no species-level metadata match
+jaEchHorr1	Echinopora horrida	True	0	1	candidate; BIOM and phylogeny checks pending
+jaGalFasc40	Galaxea fascicularis	True	2	2	candidate; BIOM and phylogeny checks pending
+jaIsoPali11	Isopora palifera	True	4	4	candidate; BIOM and phylogeny checks pending
+jaMadAure2	Madracis auretenra	False	0	0	no species-level metadata match
+jaMadSena2	Madracis senaria	False	0	0	no species-level metadata match
+jaMeaMean2	Meandrina meandrites	False	0	0	no species-level metadata match
+jaMicLord3	Micromussa lordhowensis	False	0	0	no species-level metadata match
+jaMonCapi2	Montipora capitata	False	0	0	no species-level metadata match
+jaMonCapr1	Montipora capricornis	False	0	0	no species-level metadata match
+jaMonPala3	Montipora palawanensis	False	0	0	no species-level metadata match
+jaMonSpea1	Montipora sp. UDUK0000274	False	0	0	no species-level metadata match
+jaOcuArbu1	Oculina arbuscula	False	0	0	no species-level metadata match
+jaOrbFran1	Orbicella franksi	False	0	0	no species-level metadata match
+jaPocDami1	Pocillopora damicornis	True	9	9	candidate; BIOM and phylogeny checks pending
+jaPocGran1	Pocillopora grandis	False	0	0	no species-level metadata match
+jaPorCyli1	Porites cylindrica	True	2	5	candidate; BIOM and phylogeny checks pending
+jaPorDiva4	Porites divaricata	False	0	0	no species-level metadata match
+jaPorLute2	Porites lutea	False	0	0	no species-level metadata match
+jaPorRusx1	Porites rus	False	0	0	no species-level metadata match
+jaSidRadi1	Siderastrea radians	False	0	0	no species-level metadata match
+jaSidSide1	Siderastrea siderea	False	0	0	no species-level metadata match
+jaSteInte3	Stephanocoenia intersepta	False	0	0	no species-level metadata match
+jaStyPist1	Stylophora pistillata	True	6	9	candidate; BIOM and phylogeny checks pending
+jaTurReni1	Turbinaria reniformis	True	2	5	candidate; BIOM and phylogeny checks pending

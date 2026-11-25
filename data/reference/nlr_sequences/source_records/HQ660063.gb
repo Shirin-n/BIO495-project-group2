@@ -1,0 +1,83 @@
+LOCUS       HQ660063                2067 bp    mRNA    linear   INV 22-APR-2011
+DEFINITION  Hydra magnipapillata NLR type 1 mRNA, complete cds, alternatively
+            spliced.
+ACCESSION   HQ660063
+VERSION     HQ660063.1
+KEYWORDS    .
+SOURCE      Hydra vulgaris (swiftwater hydra)
+  ORGANISM  Hydra vulgaris
+            Eukaryota; Metazoa; Cnidaria; Hydrozoa; Hydroidolina;
+            Anthoathecata; Aplanulata; Hydridae; Hydra.
+REFERENCE   1  (bases 1 to 2067)
+  AUTHORS   Lange,C., Hemmrich,G., Klostermeier,U.C., Lopez-Quintero,J.A.,
+            Miller,D.J., Rahn,T., Weiss,Y., Bosch,T.C. and Rosenstiel,P.
+  TITLE     Defining the Origins of the NOD-Like Receptor System at the Base of
+            Animal Evolution
+  JOURNAL   Mol. Biol. Evol. 28 (5), 1687-1702 (2011)
+   PUBMED   21183612
+REFERENCE   2  (bases 1 to 2067)
+  AUTHORS   Lange,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-2010) Cell and Developmental Biology, Zoological
+            Institute, Am Botanischen Garten 1-9, Kiel, SH 24118, Germany
+FEATURES             Location/Qualifiers
+     source          1..2067
+                     /organism="Hydra vulgaris"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:6087"
+     CDS             1..2067
+                     /note="NOD-like protein; alternatively spliced"
+                     /codon_start=1
+                     /product="NLR type 1"
+                     /protein_id="ADU79234.1"
+                     /translation="MDENILQNQQNRYLFSRSVGIDWKDLGRCLQILDSYLDVIDIES
+                     KNCCDKAYQMLTKWTEKENPSLNELKNALQTMEKNDLMKTLEDLQIRSSKEIEKSNLV
+                     KTDFLSDALKNFYLETYKTIEEIQPQLNKPYQVNFLDKFVDLYVVDEVEVQKDAINIA
+                     ELDQFLKKQMSYTSILFEKHLKDLSLFLISGIAAIGKTWLLRKFLLDWSNGFIWKNID
+                     LVFYLECKQLNLYENISNINELLDVFYKDILKGYNISLDFMQSKPSIMFIIDGLNEFK
+                     YFDQLISNTHCSSQEIPILNVFTEIYKYKAVISGRVNTISQYENVVTRYKDKLTIRVM
+                     GYNENGIKYYLRNNLIKKTKRRVKTMLKESSIAKTMAKVPFFLSCMCTIVADLKVKYN
+                     FINLTMTDLYAYNFLYFFQRHIFNENHEPIFKIMENNLNKQCILNICKMAYIFFIENK
+                     TTFSDIEIQTFISGFDQIESGLLEKVFLMKSGFIEKIETNFGYHYRFCQTAMIELCVS
+                     VHAYYSYSGKKIMENQKLKDCFSIIYGLLNTNENSFIKYLANLTNSNTEKISLNHVID
+                     VIPKEINCDREYQDKQKLFMQCFFESQATITDDIKASIDERKWKILINGTKTSYEVLC
+                     EKYFVNHLVNSGGKLTSLEIDKNLLTDKEKDLIKQCSRNVKDIRIKRSYRFFIDQFTK
+                     RWIRSE"
+ORIGIN      
+        1 atggatgaaa acattcttca aaatcaacag aataggtatc tatttagtcg aagtgtcgga
+       61 atagattgga aagaccttgg acgatgttta caaattttag atagctattt agatgtgata
+      121 gatattgaat ctaaaaattg ttgtgataaa gcatatcaaa tgttgaccaa atggacagaa
+      181 aaggaaaatc catcattaaa tgaactaaaa aatgctttgc aaactatgga gaaaaacgat
+      241 ttgatgaaaa cattggaaga tcttcaaata cgttcatcaa aagaaattga aaaaagtaat
+      301 ttagtcaaga cagatttctt gagtgatgcg ctgaaaaatt tttatctcga aacttataaa
+      361 acaattgagg aaattcaacc acaattaaac aaaccttatc aagttaactt tttagataaa
+      421 tttgttgatc tttatgttgt tgatgaagtt gaagtccaaa aagatgcaat taatattgca
+      481 gagctagatc aatttttaaa gaaacaaatg agttatacat caattctatt tgaaaagcat
+      541 ttaaaagatc tgtctttatt tctaatatct ggtattgctg ctattggtaa aacatggttg
+      601 cttagaaaat ttttactaga ttggtcaaat ggttttattt ggaaaaatat tgatttagtg
+      661 ttttacttgg agtgtaaaca acttaatttg tatgaaaata tttctaatat taatgaatta
+      721 cttgatgttt tctacaaaga tattttaaaa ggttataata tttctttaga tttcatgcaa
+      781 tctaaaccat caattatgtt tataattgat ggcttaaacg aatttaaata ctttgaccaa
+      841 ttaataagca atacacactg tagttcacaa gaaattccta ttcttaatgt ctttacagaa
+      901 atttataaat acaaagctgt gatatcagga agagtaaata caatatcaca atatgaaaat
+      961 gtggtcacgc gttataaaga taagttaacc attagagtta tgggttataa tgaaaatgga
+     1021 ataaaatatt atttgaggaa taatttaata aaaaaaacaa aacgcagagt gaaaactatg
+     1081 ttaaaagagt cttcgattgc aaaaaccatg gcaaaagtac cctttttttt atcatgtatg
+     1141 tgtacaattg ttgctgattt aaaagtaaaa tataacttta taaatctcac tatgacagat
+     1201 ttgtatgcat ataatttttt atactttttt caaagacaca tttttaatga aaatcatgaa
+     1261 ccaattttca aaataatgga aaataatcta aacaagcaat gtattttaaa catatgtaaa
+     1321 atggcatata ttttttttat tgaaaataaa actacttttt ccgatataga aatccaaact
+     1381 tttatcagtg gttttgatca aattgaaagt gggctccttg aaaaggtgtt tttaatgaaa
+     1441 agtggtttta ttgaaaagat tgaaacaaat tttggttatc attatcggtt ttgtcagaca
+     1501 gcaatgatag agctatgtgt ctctgttcat gcatactata gttatagtgg gaaaaagatt
+     1561 atggaaaatc aaaagttaaa agactgtttt tcaattatat atggtttatt aaatacaaat
+     1621 gaaaatagtt ttatcaagta cttagctaac ttgacaaatt caaatactga aaagatatct
+     1681 ttgaatcatg tgattgatgt gattccaaaa gaaattaact gtgatcgtga gtatcaagat
+     1741 aaacaaaagt tgtttatgca atgttttttt gaatcgcagg caactattac agacgatatt
+     1801 aaagcatcaa ttgatgaaag aaagtggaag attttgataa atggtacaaa aacatcttat
+     1861 gaagttttat gtgaaaaata ttttgtaaac catctcgtta actcaggagg gaagttgaca
+     1921 tctttagaaa ttgacaaaaa tttattaact gataaagaaa aagatcttat taagcaatgt
+     1981 tcaaggaatg taaaagatat ccgtataaag cggagttatc gtttttttat tgatcaattc
+     2041 acgaagcgat ggataagaag tgaataa
+//
+

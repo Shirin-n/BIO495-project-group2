@@ -1,0 +1,177 @@
+[
+  {
+    "filename": "PF00560.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00560/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:34.531640+00:00",
+    "bytes": 3716,
+    "sha256": "d8339d3605e50178cf0a7f59bf940868d35a9fa0d2d0e22477e087be223c5671",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  LRR_1\nACC   PF00560.41\nDESC  Leucine Rich Repeat\nLENG  23\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Wed Jul  1 08:33:05 2026\nNSEQ  2002\nEFFN  2002.000000\nCKSUM 2883894139\nGA    20.6 9.3;\nTC    20.6 11.5;\nNC    20.5 -999999.99;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch -Z 147277710 -E 1000 --cpu 8 HMM pfamseq\nSTATS LOCAL MSV       -7.2495  0.77377\nSTATS LOCAL VITERBI   -8.0545  0.77377\nSTATS LOCAL FORWARD   -2.8327  0.77377\n"
+  },
+  {
+    "filename": "PF07723.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07723/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:34.752380+00:00",
+    "bytes": 3367,
+    "sha256": "4f54c888d43e73c566341a0e43ca94878ab4bee6a26dea3fd4a06a763d3ee1bc",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  LRR_2\nACC   PF07723.20\nDESC  Leucine Rich Repeat\nLENG  26\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Tue Jun 23 15:56:47 2026\nNSEQ  141\nEFFN  141.000000\nCKSUM 3691891366\nGA    20.9 9.5;\nTC    20.9 9.5;\nNC    20.8 9.4;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch --cpu 8 -Z 147277710 -E 1000 HMM pfamseq\nSTATS LOCAL MSV       -6.5969  0.72838\nSTATS LOCAL VITERBI   -7.1478  0.72838\nSTATS LOCAL FORWARD   -3.2931  0.72838\n"
+  },
+  {
+    "filename": "PF07725.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07725/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:34.924547+00:00",
+    "bytes": 2707,
+    "sha256": "8d499dda2ac44790a29e96bd1d7d1cff4918010290b00f05fbe00b9b15296718",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  LRR_3\nACC   PF07725.19\nDESC  Leucine Rich Repeat\nLENG  20\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Tue Jun 23 15:56:47 2026\nNSEQ  53\nEFFN  53.000000\nCKSUM 4041553164\nGA    20.2 20.2;\nTC    20.2 20.2;\nNC    20.1 20.1;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch --cpu 8 -Z 147277710 -E 1000 HMM pfamseq\nSTATS LOCAL MSV       -6.1282  0.72779\nSTATS LOCAL VITERBI   -6.5200  0.72779\nSTATS LOCAL FORWARD   -4.1298  0.72779\n"
+  },
+  {
+    "filename": "PF12799.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF12799/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:34.485022+00:00",
+    "bytes": 6520,
+    "sha256": "4b0fd43047e9f4d2a13ec818af5d530e38f1a4376a12dd276a77f7bec60071bf",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  LRR_4\nACC   PF12799.15\nDESC  Leucine Rich repeats (2 copies)\nLENG  44\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Wed Jul  1 08:33:02 2026\nNSEQ  217\nEFFN  217.000000\nCKSUM 738031518\nGA    27 27;\nTC    27 27;\nNC    26.9 26.9;\nBM    hmmbuild --amino HMM.ann SEED.ann\nSM    hmmsearch -E 1000 -Z 147277710 --cpu 8 HMM pfamseq\nSTATS LOCAL MSV       -8.2559  0.72460\nSTATS LOCAL VITERBI   -9.0163  0.72460\nSTATS LOCAL FORWARD   -3.7857  0.72460\n"
+  },
+  {
+    "filename": "PF13516.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13516/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:37.032619+00:00",
+    "bytes": 3034,
+    "sha256": "0d459359907ac0db42fa5ae3522c9a7bfe8fe175b24638c5ea61a621cdc35c5d",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  LRR_6\nACC   PF13516.14\nDESC  Leucine Rich repeat\nLENG  24\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Wed Jun 24 09:13:20 2026\nNSEQ  55\nEFFN  55.000000\nCKSUM 3182879587\nGA    23.4 8.7;\nTC    23.4 10.7;\nNC    23.3 -999999.99;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch -Z 147277710 --cpu 8 -E 1000 HMM pfamseq\nSTATS LOCAL MSV       -6.9323  0.73703\nSTATS LOCAL VITERBI   -6.8557  0.73703\nSTATS LOCAL FORWARD   -3.7113  0.73703\n"
+  },
+  {
+    "filename": "PF13855.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13855/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:35.777990+00:00",
+    "bytes": 6693,
+    "sha256": "52df18900759aa30da97b1839763bcdb39a4ede8e4e97726e4e93f16e7aac34e",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  LRR_8\nACC   PF13855.14\nDESC  Leucine rich repeat\nLENG  61\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Wed Jun 24 09:13:29 2026\nNSEQ  33\nEFFN  10.719360\nCKSUM 1643218068\nGA    27 27;\nTC    27 27;\nNC    26.9 26.9;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch --cpu 8 -Z 147277710 -E 1000 HMM pfamseq\nSTATS LOCAL MSV       -8.9587  0.71892\nSTATS LOCAL VITERBI   -8.9805  0.71892\nSTATS LOCAL FORWARD   -4.4811  0.71892\n"
+  },
+  {
+    "filename": "PF14580.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF14580/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:36.039285+00:00",
+    "bytes": 13616,
+    "sha256": "010bd3171705e7de50d0bc0cc9536737c47d68eabef765cbe16ec754239ec990",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  LRR_9\nACC   PF14580.13\nDESC  Leucine-rich repeat\nLENG  175\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Tue Jun 23 16:27:41 2026\nNSEQ  6\nEFFN  0.653320\nCKSUM 3466058280\nGA    30.5 30.5;\nTC    30.5 30.5;\nNC    30.4 30.4;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch --cpu 8 -E 1000 -Z 147277710 HMM pfamseq\nSTATS LOCAL MSV      -10.4782  0.70707\nSTATS LOCAL VITERBI  -11.2420  0.70707\nSTATS LOCAL FORWARD   -4.9405  0.70707\n"
+  },
+  {
+    "filename": "PF00023.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00023/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:36.039107+00:00",
+    "bytes": 5392,
+    "sha256": "981977fe9842564b6bc0834fd5e17bdd497b5ae3b85341e92259e60cf3786b8a",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  Ank\nACC   PF00023.38\nDESC  Ankyrin repeat\nLENG  33\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Wed Jun 24 09:14:16 2026\nNSEQ  988\nEFFN  988.000000\nCKSUM 2917071732\nGA    21.1 14.7;\nTC    21.1 14.7;\nNC    21 14.6;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch -Z 147277710 --cpu 8 -E 1000 HMM pfamseq\nSTATS LOCAL MSV       -7.2391  0.73313\nSTATS LOCAL VITERBI   -8.2649  0.73313\nSTATS LOCAL FORWARD   -3.4892  0.73313\n"
+  },
+  {
+    "filename": "PF00400.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00400/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:37.957465+00:00",
+    "bytes": 6079,
+    "sha256": "d2fe70ffbcab022729c37a6f04608541065e0a3772faab42d97e99ea98de5e2e",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  WD40\nACC   PF00400.40\nDESC  WD domain, G-beta repeat\nLENG  39\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Wed Jul  1 08:32:42 2026\nNSEQ  1404\nEFFN  1404.000000\nCKSUM 2400637534\nGA    27 12.1;\nTC    27 12.3;\nNC    26.9 -999999.99;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch -E 1000 --cpu 8 -Z 147277710 HMM pfamseq\nSTATS LOCAL MSV       -7.8002  0.72902\nSTATS LOCAL VITERBI   -8.4555  0.72902\nSTATS LOCAL FORWARD   -3.3272  0.72902\n"
+  },
+  {
+    "filename": "PF00515.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00515/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:38.023406+00:00",
+    "bytes": 3792,
+    "sha256": "45e4eb4673c06e6c776b73406cf3d3812fad04537192c72d3dda11831ea644b7",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  TPR_1\nACC   PF00515.36\nDESC  Tetratricopeptide repeat\nLENG  34\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Wed Jun 24 09:15:10 2026\nNSEQ  539\nEFFN  539.000000\nCKSUM 1485963078\nGA    27.8 27.8;\nTC    27.8 27.8;\nNC    27.7 27.7;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch -Z 147277710 --cpu 8 -E 1000 HMM pfamseq\nSTATS LOCAL MSV       -7.3922  0.72742\nSTATS LOCAL VITERBI   -7.6148  0.72742\nSTATS LOCAL FORWARD   -4.1428  0.72742\n"
+  },
+  {
+    "filename": "PF00619.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00619/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:38.613558+00:00",
+    "bytes": 8878,
+    "sha256": "60ed9486d2b2a106f1ee0cf5bd8a85b38d10d8baf797dc31fd27e36970f4690f",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  CARD\nACC   PF00619.28\nDESC  Caspase recruitment domain\nLENG  85\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Tue Jun 23 15:23:53 2026\nNSEQ  47\nEFFN  8.264587\nCKSUM 261631992\nGA    23.9 23.9;\nTC    23.9 23.9;\nNC    23.8 23.8;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch --cpu 8 -E 1000 -Z 147277710 HMM pfamseq\nSTATS LOCAL MSV       -9.0320  0.71848\nSTATS LOCAL VITERBI   -9.5544  0.71848\nSTATS LOCAL FORWARD   -4.1867  0.71848\n"
+  },
+  {
+    "filename": "PF01335.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01335/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:37.950605+00:00",
+    "bytes": 9063,
+    "sha256": "44ed22a669f82d88a4af8b0ab03768357b3bd7cba543c35cff4cb3f628737e25",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  DED\nACC   PF01335.29\nDESC  Death effector domain\nLENG  82\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Tue Jun 23 15:27:35 2026\nNSEQ  127\nEFFN  6.608124\nCKSUM 1693233704\nGA    35.9 35.9;\nTC    35.9 35.9;\nNC    35.8 35.8;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch -E 1000 -Z 147277710 --cpu 8 HMM pfamseq\nSTATS LOCAL MSV       -8.8353  0.71853\nSTATS LOCAL VITERBI   -9.5026  0.71853\nSTATS LOCAL FORWARD   -3.9562  0.71853\n"
+  },
+  {
+    "filename": "PF00531.hmm.gz",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00531/?annotation=hmm",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:39.324391+00:00",
+    "bytes": 9336,
+    "sha256": "05e5ca1f276888dbae5727c444f52a0e212e17bc23d7c4d6c76ba8cf85a22f42",
+    "model_header": "HMMER3/f [3.3 | Nov 2019]\nNAME  Death\nACC   PF00531.30\nDESC  Death domain\nLENG  86\nALPH  amino\nRF    no\nMM    no\nCONS  yes\nCS    no\nMAP   yes\nDATE  Tue Jun 23 15:23:26 2026\nNSEQ  49\nEFFN  8.353088\nCKSUM 2420812298\nGA    22.6 22.6;\nTC    22.6 22.6;\nNC    22.5 22.5;\nBM    hmmbuild HMM.ann SEED.ann\nSM    hmmsearch --cpu 8 -E 1000 -Z 147277710 HMM pfamseq\nSTATS LOCAL MSV       -9.1654  0.71847\nSTATS LOCAL VITERBI   -9.9309  0.71847\nSTATS LOCAL FORWARD   -4.0624  0.71847\n"
+  },
+  {
+    "filename": "Q9Y239.json",
+    "url": "https://rest.uniprot.org/uniprotkb/Q9Y239.json",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:39.778429+00:00",
+    "bytes": 82785,
+    "sha256": "66f083de69cf8365319c99055f8311be543873ffccd83a65dde5dd79bf1239eb"
+  },
+  {
+    "filename": "Q9HC29.json",
+    "url": "https://rest.uniprot.org/uniprotkb/Q9HC29.json",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:40.180104+00:00",
+    "bytes": 180191,
+    "sha256": "6ab4d84e96fa49f949ae682a10c22855937f0626f1a00f6f0da9043f24aac25a"
+  },
+  {
+    "filename": "Q96P20.json",
+    "url": "https://rest.uniprot.org/uniprotkb/Q96P20.json",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:40.919070+00:00",
+    "bytes": 234467,
+    "sha256": "e845a969d84b3f71e5fe42c151946dd9068fd468e9f3d8f379809c0826126d5e"
+  },
+  {
+    "filename": "O14727.json",
+    "url": "https://rest.uniprot.org/uniprotkb/O14727.json",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:42.928055+00:00",
+    "bytes": 72138,
+    "sha256": "a76ab04749a7be5e392a2d220a5ffd8402730970a1879285a82fcf6eddf36a75"
+  },
+  {
+    "filename": "HQ660063.gb",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=HQ660063&rettype=gb&retmode=text",
+    "status": "downloaded",
+    "error": "",
+    "checked_utc": "2026-11-17T07:34:42.708183+00:00",
+    "bytes": 5086,
+    "sha256": "57aa89c91c33a2814ee7275bb05a34b604157b85bc6dd76fc68edd1f31d369cd"
+  }
+]

@@ -1,0 +1,4 @@
+species	genome_id	annotated_genes	protein_isoforms	mapped_proteins	mapping_percent	resolved_genes	unresolved_genes	internal_stop_proteins	canonical	nacht	nb_arc	any_isoform_canonical	any_isoform_nacht	any_isoform_nb_arc	canonical_per_10000_genes	representative_core_candidates	busco_complete_percent	canonical_partial_gtf_flags	canonical_ambiguous_residue_flags	canonical_multiple_core_flags	core_candidates_with_reference_hit	canonical_with_reference_hit
+Pocillopora damicornis	jaPocDami1	25858	30134	30134	100.0	25858	0	0	18	60	11	18	60	11	6.9611	64	99.4	0	0	2	34	18
+Stylophora pistillata	jaStyPist1	30756	35500	35500	100.0	30756	0	0	38	100	15	38	100	15	12.3553	105	99.2	0	0	2	69	38
+Isopora palifera	jaIsoPali11	25181	28399	28399	100.0	25181	0	0	29	69	8	29	69	8	11.5166	75	94.0	0	0	1	49	29

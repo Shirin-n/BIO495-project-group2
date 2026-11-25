@@ -1,0 +1,23 @@
+{
+  "species": 9,
+  "primary_species": 8,
+  "protein_isoforms": 325296,
+  "annotated_gene_loci": 285748,
+  "canonical_candidates": 266,
+  "primary_canonical_candidates": 238,
+  "nacht_loci": 820,
+  "nb_arc_loci": 134,
+  "any_isoform_canonical_loci": 267,
+  "isoform_sensitive_loci": 1,
+  "canonical_overlapping_core_model_flags": 22,
+  "canonical_multiple_core_flags": 22,
+  "canonical_ambiguous_residue_flags": 0,
+  "canonical_partial_gtf_flags": 0,
+  "canonical_with_reference_hit": 266,
+  "mapping_percent": 100.0,
+  "unresolved_loci": 0,
+  "source_busco_complete_min": 92.1,
+  "pilot_regression": "all five evidence tables identical for the three pilot species",
+  "independent_representative_and_architecture_checks": "passed",
+  "association_tests_run": false
+}

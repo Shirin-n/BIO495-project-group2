@@ -1,0 +1,14 @@
+[
+  {
+    "path": "data/raw/microbiome/pollock2018/source_docs/original_alpha_analysis.ipynb",
+    "url": "https://raw.githubusercontent.com/zaneveld/GCMP_Australia_Coevolution/fba13cd74d717727d1990e5848d9c86695454a90/3a_adiv_australia_analysis/procedure/adiv_australia_gg_constrained_tree.ipynb",
+    "sha256": "c9c284f6f4286c0a882c8f30bf4e153646f37f00796c2de819ff0c880f098416",
+    "bytes": 9363
+  },
+  {
+    "path": "data/raw/microbiome/pollock2018/source_docs/original_mito_qc.sh",
+    "url": "https://raw.githubusercontent.com/zaneveld/GCMP_Australia_Coevolution/fba13cd74d717727d1990e5848d9c86695454a90/11_quality_control_via_mitos/procedure/2_reclassify_host_taxonomy.sh",
+    "sha256": "34abbd2ed69a31feb56f18ee7eb69603a3c279e024a1c75bcbb5c8d357e45bea",
+    "bytes": 5526
+  }
+]

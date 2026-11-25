@@ -1,0 +1,10 @@
+species	tree_tips	all_tips_present	other_source_species	mapping_status
+Acropora hyacinthus	seq150121	True	Acropora cytherea;Acropora humilis;Acropora sp_bushy	shared or unresolved tip; not species-resolved
+Caulastraea furcata	seq30680b	True		unambiguous source-label mapping
+Echinopora horrida	seq155928	True	Echinopora lamellosa	shared or unresolved tip; not species-resolved
+Galaxea fascicularis	seq860622	True	Galaxea astreata	shared or unresolved tip; not species-resolved
+Isopora palifera	seq233836	True		unambiguous source-label mapping
+Pocillopora damicornis	seq291421	True		unambiguous source-label mapping
+Porites cylindrica	seq128	True	Porites heronensis;Porites lobata	shared or unresolved tip; not species-resolved
+Stylophora pistillata	seq386520	True		unambiguous source-label mapping
+Turbinaria reniformis	seq94759	True	Turbinaria stellulata	shared or unresolved tip; not species-resolved

@@ -1,0 +1,48 @@
+{
+  "primary_samples": 25,
+  "primary_species": 8,
+  "recorded_colony_ids": 25,
+  "primary_depth": 1000,
+  "subsamples_per_sample": 100,
+  "shannon_log_base": "e",
+  "smallest_species_mean_shannon": 1.07538845279,
+  "largest_species_mean_shannon": 5.52381836542,
+  "species_with_single_recorded_colony": [
+    "Caulastraea furcata"
+  ],
+  "species_with_at_least_3_recorded_colonies": 3,
+  "scenarios_prepared": 12,
+  "shared_samples_at_1000_and_5000": 19,
+  "matched_sample_shannon_5000_minus_1000_median": 0.07838541284000033,
+  "matched_sample_shannon_5000_minus_1000_max": 0.6975226920399997,
+  "median_fraction_source_observed_otus_at_1000": 0.252355555556,
+  "otu_fraction_interpretation": "fraction of OTUs observed in the source library, not estimated population coverage",
+  "sample_pcoa": {
+    "negative_eigenvalues": 2,
+    "negative_inertia": 0.0032444572191068226,
+    "positive_inertia": 10.36900535406764,
+    "negative_fraction_absolute_inertia": 0.0003128016850863261,
+    "largest_negative_to_largest_positive": 0.001159479150567399,
+    "numerical_zero_tolerance": 2.793560083921889e-12,
+    "axis1_positive_fraction": 0.26941447019564013,
+    "axis2_positive_fraction": 0.1060380532993727,
+    "distance_correction": "none",
+    "axis_percent_denominator": "sum of positive eigenvalues"
+  },
+  "species_pcoa": {
+    "negative_eigenvalues": 0,
+    "negative_inertia": -0.0,
+    "positive_inertia": 3.1181842954077674,
+    "negative_fraction_absolute_inertia": -0.0,
+    "largest_negative_to_largest_positive": 0,
+    "numerical_zero_tolerance": 1e-12,
+    "axis1_positive_fraction": 0.258602394215653,
+    "axis2_positive_fraction": 0.17208854389311457,
+    "distance_correction": "none",
+    "axis_percent_denominator": "sum of positive eigenvalues"
+  },
+  "primary_species_analysis_ready": true,
+  "association_tests_run": false,
+  "depth_interpretation": "The frozen 1,000-read normalization is not evidence of saturation; retain all planned depth sensitivities.",
+  "limitation": "Recorded colony identifiers preserve source dates and do not establish independent biological colonies."
+}

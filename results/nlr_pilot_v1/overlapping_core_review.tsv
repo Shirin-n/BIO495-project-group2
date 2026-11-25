@@ -1,0 +1,11 @@
+species	gene_id	protein_id	model	domain	start	end	bit_score	model_coverage	interpretation
+Pocillopora damicornis	g9923	g9923.t1	PF00931.30	NB-ARC	301	425	23.9	0.8026315789473685	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.
+Pocillopora damicornis	g9923	g9923.t1	PF05729.20	NACHT	302	457	81.2	0.9940119760479041	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.
+Pocillopora damicornis	g11035	g11035.t2	PF00931.30	NB-ARC	374	511	25.0	0.881578947368421	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.
+Pocillopora damicornis	g11035	g11035.t2	PF05729.20	NACHT	387	544	91.4	1.0	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.
+Stylophora pistillata	g12263	g12263.t1	PF00931.30	NB-ARC	300	429	23.6	0.8355263157894737	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.
+Stylophora pistillata	g12263	g12263.t1	PF05729.20	NACHT	306	461	86.7	0.9940119760479041	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.
+Stylophora pistillata	g15771	g15771.t1	PF00931.30	NB-ARC	439	567	24.0	0.8223684210526315	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.
+Stylophora pistillata	g15771	g15771.t1	PF05729.20	NACHT	444	600	85.4	0.9940119760479041	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.
+Isopora palifera	g17801	g17801.t1	PF00931.30	NB-ARC	498	624	23.9	0.7894736842105263	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.
+Isopora palifera	g17801	g17801.t1	PF05729.20	NACHT	501	656	94.0	0.9820359281437125	Overlapping NACHT/NB-ARC model evidence; retained under frozen v1, not two independent cores.

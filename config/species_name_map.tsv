@@ -1,0 +1,62 @@
+source_name	canonical_name	genome_match	match_method	evidence
+Acanthastrea hillae	Acanthastrea hillae	False	unmatched	source metadata and genome manifest
+Acropora cytherea	Acropora cytherea	False	unmatched	source metadata and genome manifest
+Acropora humilis	Acropora humilis	False	unmatched	source metadata and genome manifest
+Acropora hyacinthus	Acropora hyacinthus	True	exact source name	source metadata and genome manifest
+Acropora sp_bushy	Acropora sp_bushy	False	unmatched	source metadata and genome manifest
+Alveopora allingi	Alveopora allingi	False	unmatched	source metadata and genome manifest
+Astrea curta	Astrea curta	False	unmatched	source metadata and genome manifest
+Caulastrea furcata	Caulastraea furcata	True	documented synonym	https://www.marinespecies.org/aphia.php?p=taxdetails&id=289577
+Cyphastrea microphthalma	Cyphastrea microphthalma	False	unmatched	source metadata and genome manifest
+Cyphastrea serailia	Cyphastrea serailia	False	unmatched	source metadata and genome manifest
+Diploastrea heliopora	Diploastrea heliopora	False	unmatched	source metadata and genome manifest
+Dipsastraea pallida	Dipsastraea pallida	False	unmatched	source metadata and genome manifest
+Dipsastraea sp_A	Dipsastraea sp_A	False	unmatched	source metadata and genome manifest
+Dipsastraea sp_B	Dipsastraea sp_B	False	unmatched	source metadata and genome manifest
+Dipsastraea sp_C	Dipsastraea sp_C	False	unmatched	source metadata and genome manifest
+Echinophyllia aspera	Echinophyllia aspera	False	unmatched	source metadata and genome manifest
+Echinophyllia orpheensis	Echinophyllia orpheensis	False	unmatched	source metadata and genome manifest
+Echinopora horrida	Echinopora horrida	True	exact source name	source metadata and genome manifest
+Echinopora lamellosa	Echinopora lamellosa	False	unmatched	source metadata and genome manifest
+Echinopora mammiformis	Echinopora mammiformis	False	unmatched	source metadata and genome manifest
+Favites abdita	Favites abdita	False	unmatched	source metadata and genome manifest
+Favites sp1	Favites sp1	False	unmatched	source metadata and genome manifest
+Favites sp2	Favites sp2	False	unmatched	source metadata and genome manifest
+Fungia sp	Fungia sp	False	unmatched	source metadata and genome manifest
+Galaxea astreata	Galaxea astreata	False	unmatched	source metadata and genome manifest
+Galaxea fascicularis	Galaxea fascicularis	True	exact source name	source metadata and genome manifest
+Goniastrea edwardsi	Goniastrea edwardsi	False	unmatched	source metadata and genome manifest
+Goniastrea favulus	Goniastrea favulus	False	unmatched	source metadata and genome manifest
+Heliopora coerulea	Heliopora coerulea	False	unmatched	source metadata and genome manifest
+Hydnophora exesa	Hydnophora exesa	False	unmatched	source metadata and genome manifest
+Isopora palifera	Isopora palifera	True	exact source name	source metadata and genome manifest
+Leptastrea transversa	Leptastrea transversa	False	unmatched	source metadata and genome manifest
+Lobophyllia hemprichii	Lobophyllia hemprichii	False	unmatched	source metadata and genome manifest
+Lobophyllia sp	Lobophyllia sp	False	unmatched	source metadata and genome manifest
+Lobophytum sp	Lobophytum sp	False	unmatched	source metadata and genome manifest
+Merulina ampliata	Merulina ampliata	False	unmatched	source metadata and genome manifest
+Millepora sp	Millepora sp	False	unmatched	source metadata and genome manifest
+Montipora aequituberculata	Montipora aequituberculata	False	unmatched	source metadata and genome manifest
+Montipora hispida	Montipora hispida	False	unmatched	source metadata and genome manifest
+Pachyseris rugosa	Pachyseris rugosa	False	unmatched	source metadata and genome manifest
+Pachyseris speciosa	Pachyseris speciosa	False	unmatched	source metadata and genome manifest
+Palythoa caesia	Palythoa caesia	False	unmatched	source metadata and genome manifest
+Pavona sp	Pavona sp	False	unmatched	source metadata and genome manifest
+Pavona varians	Pavona varians	False	unmatched	source metadata and genome manifest
+Pavona venosa	Pavona venosa	False	unmatched	source metadata and genome manifest
+Physogyra lichtensteini	Physogyra lichtensteini	False	unmatched	source metadata and genome manifest
+Platygyra sinensis	Platygyra sinensis	False	unmatched	source metadata and genome manifest
+Pocillopora damicornis	Pocillopora damicornis	True	exact source name	source metadata and genome manifest
+Porites cylindrica	Porites cylindrica	True	exact source name	source metadata and genome manifest
+Porites heronensis	Porites heronensis	False	unmatched	source metadata and genome manifest
+Porites lobata	Porites lobata	False	unmatched	source metadata and genome manifest
+Psammocora contigua	Psammocora contigua	False	unmatched	source metadata and genome manifest
+Psammocora digitata	Psammocora digitata	False	unmatched	source metadata and genome manifest
+Seriatopora hystrix	Seriatopora hystrix	False	unmatched	source metadata and genome manifest
+Stylophora pistillata	Stylophora pistillata	True	exact source name	source metadata and genome manifest
+Symphyllia sp	Symphyllia sp	False	unmatched	source metadata and genome manifest
+Turbinaria peltata	Turbinaria peltata	False	unmatched	source metadata and genome manifest
+Turbinaria reniformis	Turbinaria reniformis	True	exact source name	source metadata and genome manifest
+Turbinaria stellulata	Turbinaria stellulata	False	unmatched	source metadata and genome manifest
+Unknown	Unknown	False	unmatched	source metadata and genome manifest
+not_applicable	not_applicable	False	unmatched	source metadata and genome manifest

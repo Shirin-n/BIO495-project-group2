@@ -1,0 +1,6 @@
+protein_id	length	canonical	nacht	nb_arc	nacht_domains	nb_arc_domains	lrr_domains	multiple_core_domains	mixed_core_models	overlapping_core_models	domains
+Q9Y239	953	True	True	False	1	0	3	False	False	False	CARD:21-98;NACHT:197-367;LRR_6:786-805;LRR_6:821-833;LRR_6:839-861
+Q9HC29	1040	True	True	False	1	0	3	False	False	False	CARD:32-117;NACHT:293-462;LRR_6:898-920;LRR_6:927-948;LRR_6:981-1003
+Q96P20	1036	True	True	False	1	0	5	False	False	False	NACHT:220-389;LRR_6:740-758;LRR_6:796-819;LRR_6:854-873;LRR_6:911-933;LRR_6:968-990
+ADU79234.1	688	False	True	False	1	0	0	False	False	False	Death:19-87;NACHT:187-314
+O14727	1248	False	False	True	0	1	0	False	False	False	CARD:6-89;NB-ARC:130-277;WD40:611-642;WD40:648-685;WD40:689-729;WD40:734-771;WD40:875-909;WD40:1001-1031;WD40:1040-1071;WD40:1079-1113;WD40:1119-1155;WD40:1176-1203

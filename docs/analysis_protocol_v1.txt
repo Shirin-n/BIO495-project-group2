@@ -1,0 +1,95 @@
+Coral NLR and microbiome analysis protocol
+Version 1.0 | Frozen 17 November 2026 | Asia/Shanghai
+
+Purpose and status
+This is a local, exploratory analysis plan for associations between coral NLR candidate gene counts and microbiome diversity/composition. It was fixed after inspecting data availability and QC, but before identifying NLRs or examining NLR-microbiome associations. It is not an external preregistration. The machine-readable companion is config/analysis_protocol_v1.json. No causal, receptor-function or population-wide claim follows from this design.
+
+1. Research questions and scope
+A: Are higher canonical NLR candidate counts associated with higher species-mean Shannon diversity? The expected association is positive.
+B: Do species with more similar candidate counts have more similar microbial compositions? The expected distance-distance association is positive.
+The corresponding null hypotheses concern these associations. They do not assert that host species have no microbiome differences.
+
+The inferential unit is the host species. The primary cohort has eight species and 25 coral tissue samples. Neither 25 samples nor the number of species pairs is the number of independent NLR observations. Genomes and microbiomes come from different individuals and often different populations. One reference genome is treated as a species proxy, not a population-wide estimate of copy-number variation.
+
+2. Frozen data and cohorts
+Use the existing Metz annotation release v1.0.0. Do not silently mix it with a newer release. Initially search the nine species with matched microbiome metadata; the primary comparison uses the eight with primary samples.
+
+Primary cohort: primary_strict_mito_agree, 25 samples, eight species.
+Requirements: matched coral tissue; recorded colony ID; explicitly no disease; no recorded tissue loss and zero tissue-loss percentage; no unresolved duplicate colony-compartment records; mitotype agreement; presence in BIOM; at least 1,000 reads after retaining annotated Bacteria/Archaea and excluding annotated organelles.
+This operational definition does not establish physiological health or absence of bleaching.
+
+Prespecified sensitivity cohorts:
+- strict health, all mitotype flags: 28 samples, eight species;
+- broader health, mitotype agreement: 39 samples, nine species;
+- broader health, all mitotype flags: 54 samples, nine species;
+- strict health, mitotype agreement, retaining unassigned non-organelle OTUs: 26 samples, eight species.
+The broader health definition allows missing tissue-loss information, not recorded damage. Unassigned OTUs are not assumed to be contaminants.
+
+Exact sample IDs are saved in the JSON plan. config/analysis_inputs_v1.tsv records input hashes. Compressed count TSVs are hashed after decompression; regenerated HDF5 creation timestamps are deliberately not cohort identifiers. The BIOM source and original metadata are frozen by file hash. Keep downloaded files unchanged.
+
+3. NLR exposure and gene counting
+The primary exposure is the number of unique gene loci whose representative protein has an accepted NACHT domain followed by accepted LRR evidence. Call this the canonical-architecture NLR candidate count. It is not a complete census of functional coral NLRs; divergent architectures and imperfect annotation can be missed.
+
+Use the frozen Pfam model versions in the manifest. Apply their sequence and domain GA thresholds with HMMER --cut_ga. Require at least 50% profile coverage, computed as (hmm_to - hmm_from + 1)/model_length. An LRR model match must begin after the NACHT alignment ends in the same protein. At least one accepted LRR model match is required; some models span multiple repeat units. Effector domains support interpretation but are not mandatory. Resolve competing repeat-model matches overlapping more than 50% of the shorter alignment by domain bit-score, then accession for ties.
+
+Use GTF-supported protein/transcript-to-gene mapping. Select the longest eligible protein per gene, ignoring a terminal stop; resolve equal lengths lexicographically by protein ID. Internal-stop proteins are excluded from primary representative selection and retained in the audit. A locus with no eligible isoform is unresolved, not demonstrated absent. Record sequence length, ambiguous residues, partial models, multiple cores and competing architecture evidence. Do not merge distinct loci solely because protein sequences are similar. Count a gene once regardless of isoforms, domain repeats or hit rows.
+
+Alternative exposures are any-isoform canonical candidates counted once per gene, all NACHT-containing loci, NB-ARC-containing loci reported separately, and canonical candidates per 10,000 annotated genes. NB-ARC alone does not establish NLR function. The normalization by all annotated genes is a sensitivity analysis, not a replacement for annotation QC.
+
+BLAST provides supporting homology and specificity evidence using the small versioned reference panel. Retain hits at E <= 1e-5 and report identity plus query/subject coverage. Do not require a human hit or infer function from a hit. Current references include a cnidarian NLR, human NLRs and an APAF1 comparator; a validated coral positive control is still missing.
+
+Pilot species are Pocillopora damicornis, Stylophora pistillata and Isopora palifera. Review coordinates, mapping, controls and candidate architecture without displaying microbial outcomes. Candidate classification must not be adjusted to improve a microbiome association. A technical problem may trigger a documented pre-association amendment. A successful scan with no candidates is zero; failed/unusable input is NA. Unresolved mappings require repair or exclusion, not zero imputation. BUSCO completeness below 90% is a sensitivity exclusion, not an automatic primary cutoff.
+
+4. Microbiome endpoints and aggregation
+Keep the count inputs unrarefied and unnormalized. Do not add a prevalence filter for v1.
+
+Primary alpha endpoint: Shannon entropy using natural logarithms. For each sample, draw 100 subsamples of 1,000 reads without replacement and take the mean Shannon value. Use NumPy Generator PCG64, base seed 20261117, sorted sample IDs and SeedSequence spawning; record the NumPy version. Sampling variability across draws is Monte Carlo variability, not biological uncertainty. Report sample values, then average within each recorded colony and equally across colonies within each species. Each species has equal weight in the association analysis.
+
+Observed OTUs and inverse Simpson are secondary descriptive endpoints using the same subsamples. Unrarefied Shannon is a sensitivity endpoint. Inspect rarefaction/coverage diagnostics, but do not select a depth according to favorable association results. The 1,000-read depth is a prespecified starting analysis, not proof of saturation. If diagnostics show it is inadequate, preserve the v1 output and document an amendment before viewing the association.
+
+Primary beta endpoint: Bray-Curtis distances. Convert each sample's unrarefied counts to relative abundances. Average sample profiles within recorded colony and then equally across colonies within species. Compute between-species Bray-Curtis distances on these profiles. Plot sample-level ordination as descriptive EDA only. PCoA figures must report negative eigenvalues rather than silently replacing the analysis distances. No additional beta-distance hypothesis test is scheduled in v1.
+
+A species with one recorded colony remains in the primary exploratory comparison and is flagged. Do not fabricate within-species confidence intervals for it. Recorded colony IDs do not independently prove biological independence. Never pool all reads across a species to allow deeper libraries or more sampled colonies to dominate its profile.
+
+5. Association tests and uncertainty
+A: Spearman rho between canonical candidate count and species-mean standardized Shannon.
+B: Spearman Mantel statistic between absolute pairwise differences in log1p(candidate count) and between-species Bray-Curtis distance. Compare the upper triangles; permute species labels by moving matrix rows and columns together. Pairwise entries are not independent replicates.
+
+Use two-sided tests despite the directional hypotheses. Enumerate all species-label permutations for at most eight species (40,320 for eight). Include the identity permutation and count absolute statistics at least as extreme as observed. For more than eight species use 9,999 random permutations and (extreme_count + 1)/(B + 1), with seed 20261117. Use average ranks for ties. Do not rely on the large-sample Spearman p-value.
+
+Report rho, sample/species counts, raw p and Holm-adjusted p across the two primary-cohort tests, with alpha 0.05. Retain a two-test family if one endpoint is undefined; do not turn an undefined result into evidence for a null. These p-values are nominal and exploratory: species exchangeability may be violated by shared ancestry and geography. With fewer than five eligible species, or a constant exposure/response, report descriptive or undefined results only. Five is an operational safeguard, not a power guarantee.
+
+Show individual species and their sample counts, within-species variability where estimable, and the leave-one-species-out effect range. Do not label a leave-one-out range or subsampling spread as a confidence interval. Primary analyses contain no multivariable adjustment at the current species count. PERMANOVA is not part of the v1 primary test family; a later addition requires a versioned rationale and valid species/cluster-level permutation design. Partial Mantel is not used.
+
+6. Phylogeny and geographical limitations
+The current mitochondrial tree is not accepted as a species-level tree. A replacement must have documented provenance, one supported tip per eligible species, interpretable finite nonnegative branch lengths and a nonsingular covariance matrix after pruning. Do not substitute genus-level tips or rename shared mitochondrial tips into distinct species.
+
+If a suitable tree is obtained, fit a secondary PGLS model: species-mean Shannon ~ log1p(canonical count), with Brownian covariance and lambda fixed to 1. Compare lambda fixed to 0 as a model sensitivity; do not estimate an extra lambda parameter from eight species. Report slope, uncertainty and diagnostics under the stated model. Use at least five eligible species as the same operational safeguard. If the tree is unavailable or the model is not identifiable, omit PGLS and state explicitly that ancestry was not controlled.
+
+Report species-by-site and expedition coverage. A single-expedition sensitivity analysis is available only if at least five eligible species are present; use the expedition containing the largest number of eligible species, resolving ties lexicographically. Otherwise report it unavailable. Do not claim geography is adjusted when species and geography are confounded.
+
+7. Prespecified sensitivity analyses
+Change one factor at a time from the primary analysis:
+- the four stored sensitivity cohorts;
+- 2,000, 5,000 and 10,000-read cutoffs, repeating alpha subsampling at each depth;
+- at least two or at least three recorded colonies per species;
+- exclusion of BUSCO C below 90%, with source-figure uncertainty noted;
+- alternative NLR exposures defined above;
+- unrarefied Shannon and leave-one-species-out effects;
+- the conditional tree and single-expedition analyses.
+Report all scheduled results, lost species and ineligible analyses. Sensitivity results do not create a menu from which the most significant result becomes primary. Avoid a full factorial search across choices. If the exposure has no usable variation, report that A/B cannot be evaluated instead of relaxing detection thresholds after viewing outcomes.
+
+8. Execution, amendments and delivery
+Continue using the single English preparation/EDA notebook with concise Markdown. Use scripts for repeatable sequence-tool execution, and link their parameters and QC back to the notebook. Run in the dedicated bio-project environment and retain environment locks, reference versions, seeds and logs.
+
+Before changing a frozen rule, create a new version recording the reason, old/new settings, affected data, time of change and whether any NLR-microbiome association was already viewed. Preserve v1 and its results. Post-association changes are explicitly exploratory deviations. Metadata corrections supported by external evidence are allowed through this process; missingness is never resolved by assuming healthy status or zero gene copies.
+
+Stage 1 ends with this protocol, the JSON settings, the input freeze manifest and passing notebook guards. Stage 2 starts with tool preparation and the three-species NLR pilot. Stage 1 itself does not execute gene identification, diversity estimation or association tests.
+
+Final research deliverables are gene-level evidence, species-level candidate counts, sample/species microbiome summaries, primary and sensitivity results, reproducible figures, a report and a presentation. Interpret both positive and negative findings within the small species count, uneven sites, annotation uncertainty and unmatched genome/microbiome individuals.
+
+Sources
+HMMER User Guide: https://eddylab.org/software/hmmer/Userguide.pdf
+SciPy Spearman documentation: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html
+Coral receptor architecture study: https://doi.org/10.1093/molbev/mss213
+Pollock microbiome study: https://doi.org/10.1038/s41467-018-07275-x

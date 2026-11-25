@@ -1,0 +1,17 @@
+sample_id	canonical_species	colony_id	mitotype_match	total_host_mitochondrial_count	ratio_of_colony_mitoype_to_total_mitos	microbial_reads	strict_candidate	mitotype_review_reason
+E10.Sty.pist.1.20150628.T	Stylophora pistillata	E10.10.Sty.pist.1.20150628	no	23.0	0.0	16393	True	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.1.20150105.T	Acropora hyacinthus	E3.6.Acr.hyac.1.20150105	no	13.0	0.0	4416	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.1.20150106.T	Acropora hyacinthus	E3.6.Acr.hyac.1.20150106	no	47.0	0.127659574	19257	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.1.20150118.T	Acropora hyacinthus	E3.6.Acr.hyac.1.20150118	no	1060.0	0.0	6544	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.1.20150120.T	Acropora hyacinthus	E3.6.Acr.hyac.1.20150120	no	1.0	0.0	573	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.2.20150105.T	Acropora hyacinthus	E3.6.Acr.hyac.2.20150105	no	22.0	0.0	15193	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.2.20150106.T	Acropora hyacinthus	E3.6.Acr.hyac.2.20150106	no	86.0	0.0	23376	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.2.20150121.T	Acropora hyacinthus	E3.6.Acr.hyac.2.20150121	no	1052.0	0.0	1681	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.3.20150105.T	Acropora hyacinthus	E3.6.Acr.hyac.3.20150105	no	10.0	0.0	17781	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.3.20150106.T	Acropora hyacinthus	E3.6.Acr.hyac.3.20150106	no	255.0	0.015686275	7283	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.3.20150120.T	Acropora hyacinthus	E3.6.Acr.hyac.3.20150120	no	9.0	0.111111111	14968	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.3.20150123.T	Acropora hyacinthus	E3.6.Acr.hyac.3.20150123	no	16.0	0.0	15991	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.4.20150105.T	Acropora hyacinthus	E3.6.Acr.hyac.4.20150105	no	11.0	0.0	17560	False	discordant expected/dominant mitotype; hold out from primary
+E3.6.Acr.hyac.4.20150106.T	Acropora hyacinthus	E3.6.Acr.hyac.4.20150106	no	11.0	0.090909091	6108	False	discordant expected/dominant mitotype; hold out from primary
+E7.10.Poc.dami.3.20150621.T	Pocillopora damicornis	E7.10.Poc.dami.3.20150621	no	1092.0	0.0	2230	True	discordant expected/dominant mitotype; hold out from primary
+E7.6.Acr.hyac.2.20150622.T	Acropora hyacinthus	E7.6.Acr.hyac.2.20150622	no	213.0	0.004694836	23559	True	discordant expected/dominant mitotype; hold out from primary

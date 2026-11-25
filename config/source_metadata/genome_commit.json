@@ -1,0 +1,101 @@
+{
+  "sha": "5d18908cfb89af83181d5205f003c05d9494c0cc",
+  "node_id": "C_kwDOOpLsG9oAKDVkMTg5MDhjZmI4OWFmODMxODFkNTIwNWYwMDNjMDVkOTQ5NGMwY2M",
+  "commit": {
+    "author": {
+      "name": "sebametz",
+      "email": "metz.seba91@gmail.com",
+      "date": "2025-10-10T12:04:34Z"
+    },
+    "committer": {
+      "name": "sebametz",
+      "email": "metz.seba91@gmail.com",
+      "date": "2025-10-10T12:04:34Z"
+    },
+    "message": "link fixed",
+    "tree": {
+      "sha": "690f4790d2dbb132767b0f8ec1dc7795087fe919",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/trees/690f4790d2dbb132767b0f8ec1dc7795087fe919"
+    },
+    "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/git/commits/5d18908cfb89af83181d5205f003c05d9494c0cc",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/commits/5d18908cfb89af83181d5205f003c05d9494c0cc",
+  "html_url": "https://github.com/sebametz/coral-genomes-annotation/commit/5d18908cfb89af83181d5205f003c05d9494c0cc",
+  "comments_url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/commits/5d18908cfb89af83181d5205f003c05d9494c0cc/comments",
+  "author": {
+    "login": "sebametz",
+    "id": 33940885,
+    "node_id": "MDQ6VXNlcjMzOTQwODg1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/33940885?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sebametz",
+    "html_url": "https://github.com/sebametz",
+    "followers_url": "https://api.github.com/users/sebametz/followers",
+    "following_url": "https://api.github.com/users/sebametz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sebametz/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sebametz/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sebametz/subscriptions",
+    "organizations_url": "https://api.github.com/users/sebametz/orgs",
+    "repos_url": "https://api.github.com/users/sebametz/repos",
+    "events_url": "https://api.github.com/users/sebametz/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sebametz/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "sebametz",
+    "id": 33940885,
+    "node_id": "MDQ6VXNlcjMzOTQwODg1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/33940885?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sebametz",
+    "html_url": "https://github.com/sebametz",
+    "followers_url": "https://api.github.com/users/sebametz/followers",
+    "following_url": "https://api.github.com/users/sebametz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sebametz/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sebametz/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sebametz/subscriptions",
+    "organizations_url": "https://api.github.com/users/sebametz/orgs",
+    "repos_url": "https://api.github.com/users/sebametz/repos",
+    "events_url": "https://api.github.com/users/sebametz/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sebametz/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "c8e1d978659620aeb32cbf3b1dd4d22976c85705",
+      "url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/commits/c8e1d978659620aeb32cbf3b1dd4d22976c85705",
+      "html_url": "https://github.com/sebametz/coral-genomes-annotation/commit/c8e1d978659620aeb32cbf3b1dd4d22976c85705"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 1,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "5906d34b169a540e453b8f22e8e9a3f59f138f25",
+      "filename": "results/jaCauFurc1_Caulastraea_furcata/README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/sebametz/coral-genomes-annotation/blob/5d18908cfb89af83181d5205f003c05d9494c0cc/results%2FjaCauFurc1_Caulastraea_furcata%2FREADME.md",
+      "raw_url": "https://github.com/sebametz/coral-genomes-annotation/raw/5d18908cfb89af83181d5205f003c05d9494c0cc/results%2FjaCauFurc1_Caulastraea_furcata%2FREADME.md",
+      "contents_url": "https://api.github.com/repos/sebametz/coral-genomes-annotation/contents/results%2FjaCauFurc1_Caulastraea_furcata%2FREADME.md?ref=5d18908cfb89af83181d5205f003c05d9494c0cc",
+      "patch": "@@ -10,7 +10,7 @@\n \n * [softmasked genome FASTA](https://asg_hubs.cog.sanger.ac.uk/jaCauFurc1/jaCauFurc1.fa.masked)\n * [tarball of RepeatModeller output](https://asg_hubs.cog.sanger.ac.uk/jaCauFurc1/jaCauFurc1.tar.xz)\n-* [BAM file](https://asg_hubs.cog.sanger.ac.uk/jaCauFurc1/VARUS_modified.bam) of VARUS sampled RNASeq from SRA (max 30 million spots)\n+* [BAM file](https://asg_hubs.cog.sanger.ac.uk/jaCauFurc1/VARUS.bam) of VARUS sampled RNASeq from SRA (max 30 million spots)\n \n # Statistics:\n "
+    }
+  ]
+}

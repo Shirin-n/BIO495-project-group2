@@ -1,0 +1,20 @@
+{
+  "metadata_records": 695,
+  "genome_sets": 40,
+  "overlap_species": 9,
+  "strict_tissue_samples": 29,
+  "strict_species": 8,
+  "broad_tissue_samples": 57,
+  "broad_species": 9,
+  "strict_mitotype_agreement_samples": 26,
+  "species_with_unambiguous_source_tree_mapping": 4,
+  "hmm_models": 15,
+  "reference_proteins": 5,
+  "new_conda_environment_created": true,
+  "biom_matrix_qc": "completed; see biom_preparation_summary.json",
+  "pgls_species_tree": "not ready",
+  "coral_validated_reference_sequences": "not yet available",
+  "primary_count_validated_samples": 25,
+  "primary_count_validated_species": 8,
+  "interpretation": "metadata candidates and count-validated cohorts are reported separately"
+}

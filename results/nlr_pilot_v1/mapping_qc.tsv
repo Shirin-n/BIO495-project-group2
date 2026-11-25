@@ -1,0 +1,4 @@
+species	protein_records	gtf_transcripts	gtf_genes	source_gene_count	unmapped_proteins	missing_protein_transcripts	genes_without_proteins	representatives	note
+Pocillopora damicornis	30134	30134	25858	25858	0	0	0	25858	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Stylophora pistillata	35500	35500	30756	30756	0	0	0	30756	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Isopora palifera	28399	28399	25181	25181	0	0	0	25181	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.

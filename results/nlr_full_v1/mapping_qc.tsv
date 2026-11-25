@@ -1,0 +1,10 @@
+species	protein_records	gtf_transcripts	gtf_genes	source_gene_count	unmapped_proteins	missing_protein_transcripts	genes_without_proteins	representatives	note
+Acropora hyacinthus	32785	32785	28210	28210	0	0	0	28210	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Caulastraea furcata	39123	39123	34778	34778	0	0	0	34778	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Echinopora horrida	57537	57537	50984	50984	0	0	0	50984	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Galaxea fascicularis	30702	30702	26437	26437	0	0	0	26437	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Isopora palifera	28399	28399	25181	25181	0	0	0	25181	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Pocillopora damicornis	30134	30134	25858	25858	0	0	0	25858	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Porites cylindrica	34276	34276	30453	30453	0	0	0	30453	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Stylophora pistillata	35500	35500	30756	30756	0	0	0	30756	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.
+Turbinaria reniformis	36840	36840	33091	33091	0	0	0	33091	Mapping verified using explicit GTF gene_id/transcript_id pairs; no suffix inference.

@@ -1,0 +1,190 @@
+{
+  "protocol_id": "coral-nlr-v1.0",
+  "scenarios": [
+    {
+      "scenario": "primary_strict_mito_agree",
+      "data_scenario": "primary_strict_mito_agree",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "primary"
+    },
+    {
+      "scenario": "sensitivity_strict_all_mitotypes",
+      "data_scenario": "sensitivity_strict_all_mitotypes",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "sensitivity_strict_all_mitotypes"
+    },
+    {
+      "scenario": "sensitivity_broad_mito_agree",
+      "data_scenario": "sensitivity_broad_mito_agree",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "sensitivity_broad_mito_agree"
+    },
+    {
+      "scenario": "sensitivity_broad_all_mitotypes",
+      "data_scenario": "sensitivity_broad_all_mitotypes",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "combined_health_and_mitotype"
+    },
+    {
+      "scenario": "sensitivity_strict_mito_with_unassigned",
+      "data_scenario": "sensitivity_strict_mito_with_unassigned",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "sensitivity_strict_mito_with_unassigned"
+    },
+    {
+      "scenario": "primary_depth_2000",
+      "data_scenario": "primary_depth_2000",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "depth"
+    },
+    {
+      "scenario": "primary_depth_5000",
+      "data_scenario": "primary_depth_5000",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "depth"
+    },
+    {
+      "scenario": "primary_depth_10000",
+      "data_scenario": "primary_depth_10000",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "depth"
+    },
+    {
+      "scenario": "primary_min_2_colonies",
+      "data_scenario": "primary_min_2_colonies",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "colony_count"
+    },
+    {
+      "scenario": "primary_min_3_colonies",
+      "data_scenario": "primary_min_3_colonies",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "colony_count"
+    },
+    {
+      "scenario": "primary_busco_ge_90",
+      "data_scenario": "primary_busco_ge_90",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "annotation_quality"
+    },
+    {
+      "scenario": "primary_single_expedition",
+      "data_scenario": "primary_single_expedition",
+      "exposure": "canonical",
+      "alpha": "shannon_mean",
+      "factor": "expedition"
+    },
+    {
+      "scenario": "exposure_any_isoform_canonical",
+      "data_scenario": "primary_strict_mito_agree",
+      "exposure": "any_isoform_canonical",
+      "alpha": "shannon_mean",
+      "factor": "exposure"
+    },
+    {
+      "scenario": "exposure_nacht",
+      "data_scenario": "primary_strict_mito_agree",
+      "exposure": "nacht",
+      "alpha": "shannon_mean",
+      "factor": "exposure"
+    },
+    {
+      "scenario": "exposure_nb_arc",
+      "data_scenario": "primary_strict_mito_agree",
+      "exposure": "nb_arc",
+      "alpha": "shannon_mean",
+      "factor": "exposure"
+    },
+    {
+      "scenario": "exposure_canonical_per_10000_genes",
+      "data_scenario": "primary_strict_mito_agree",
+      "exposure": "canonical_per_10000_genes",
+      "alpha": "shannon_mean",
+      "factor": "exposure"
+    },
+    {
+      "scenario": "unrarefied_shannon",
+      "data_scenario": "primary_strict_mito_agree",
+      "exposure": "canonical",
+      "alpha": "shannon_unrarefied",
+      "factor": "alpha_normalization"
+    }
+  ],
+  "seed": 20261117,
+  "random_streams": {
+    "exposure_any_isoform_canonical": [
+      0
+    ],
+    "exposure_canonical_per_10000_genes": [
+      1
+    ],
+    "exposure_nacht": [
+      2
+    ],
+    "exposure_nb_arc": [
+      3
+    ],
+    "primary_busco_ge_90": [
+      4
+    ],
+    "primary_depth_10000": [
+      5
+    ],
+    "primary_depth_2000": [
+      6
+    ],
+    "primary_depth_5000": [
+      7
+    ],
+    "primary_min_2_colonies": [
+      8
+    ],
+    "primary_min_3_colonies": [
+      9
+    ],
+    "primary_single_expedition": [
+      10
+    ],
+    "primary_strict_mito_agree": [
+      11
+    ],
+    "sensitivity_broad_all_mitotypes": [
+      12
+    ],
+    "sensitivity_broad_mito_agree": [
+      13
+    ],
+    "sensitivity_strict_all_mitotypes": [
+      14
+    ],
+    "sensitivity_strict_mito_with_unassigned": [
+      15
+    ],
+    "unrarefied_shannon": [
+      16
+    ]
+  },
+  "rng": "PCG64; SeedSequence children in sorted scenario-name order; random label permutations with replacement",
+  "two_sided": "count abs(permuted rank dot product) >= abs(observed rank dot product)",
+  "integer_rank_scaling": "z = n * (2 * average_rank) - sum(2 * average_rank); constant positive scaling cancels in rho",
+  "ties": "average ranks; all labelled permutations retained, including duplicate statistics",
+  "holm": "two primary endpoints only; undefined endpoint reserves one of the two hypotheses",
+  "sensitivity_pvalues": "unadjusted exploratory; never a selection criterion for primary conclusions",
+  "density_exposure": "10000 * canonical / annotated_genes, recomputed without reporting-rounding",
+  "matrix_permutation": "same label permutation on rows and columns of gene-distance rank matrix",
+  "leave_one_species_out": "effects only; ranges are diagnostics, not confidence intervals",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "source_script_sha256": "4af59ebb69746e61860978af58881c1b6c8f93b1cf0c43685ec7e7e274b3ecf4"
+}

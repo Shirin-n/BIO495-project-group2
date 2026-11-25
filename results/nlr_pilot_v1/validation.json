@@ -1,0 +1,52 @@
+{
+  "protocol_id": "coral-nlr-v1.0",
+  "stage": "three-species NLR technical pilot",
+  "completed_at": "2026-11-17T21:34:01-0800",
+  "tools": {
+    "hmmsearch": [
+      "# hmmsearch :: search profile(s) against a sequence database",
+      "# HMMER 3.4 (Aug 2023); http://hmmer.org/",
+      "# Copyright (C) 2023 Howard Hughes Medical Institute."
+    ],
+    "blastp": [
+      "blastp: 2.17.0+",
+      " Package: blast 2.17.0, build Aug 22 2026 13:45:01"
+    ],
+    "makeblastdb": [
+      "makeblastdb: 2.17.0+",
+      " Package: blast 2.17.0, build Aug 22 2026 13:45:01"
+    ]
+  },
+  "frozen_input_representations_verified": 65,
+  "human_canonical_controls_pass": true,
+  "apaf1_specificity_pass": true,
+  "hydra_noncanonical_control_pass": true,
+  "hydra_expected_architecture_source": "https://doi.org/10.1093/molbev/msq349 (Figure 4; DEATH-NACHT without LRRs)",
+  "hydra_canonical": false,
+  "blast_self_controls_pass": true,
+  "protein_gene_mapping_pass": true,
+  "domain_coordinates_pass": true,
+  "count_unit": "unique GTF gene locus",
+  "primary_representative": "longest eligible isoform; lexical tie-break",
+  "internal_stop_scan_policy": "Replace internal * by X for HMMER only; retain flags and exclude these isoforms from counts.",
+  "partial_model_flag": "Missing annotated start_codon or stop_codon; review flag, not proof of biological truncation.",
+  "blast_coverage": "Union of all reported HSP intervals separately on query and subject; not sum of overlaps.",
+  "outcome_blind": true,
+  "association_tests_run": false,
+  "pilot_gate": "pass",
+  "source_script_sha256": "28acb8629125363f1532291a3abaaa14926f21216c60757ff77c189b6d98bdf0",
+  "output_sha256": {
+    "results/nlr_pilot_v1/architecture_examples.tsv": "6ae02658395cdf447db0985a1faff22e42cce4e958deb9e529f43d3cc5d90225",
+    "results/nlr_pilot_v1/blast_hsps.tsv": "3d3cec6fde9465399b2020009d5623671a7650d19160501389cbb2f2dcb2394e",
+    "results/nlr_pilot_v1/blast_pairs.tsv": "578d966f34bff4fd7954ef3f9eefb7b8d17741e8d3dffbbd97106356a92fd362",
+    "results/nlr_pilot_v1/canonical_candidates.tsv": "24f2d7077cbea74d69abf73ec940126ea66d15e9a046553dd804d2adf7204e7c",
+    "results/nlr_pilot_v1/control_classification.tsv": "20f77a0b3d36d1cb94544c75391bf2adc241269ea1a1aab6aa9a3cfc7b36c343",
+    "results/nlr_pilot_v1/control_domains.tsv": "1b022a66bb7e39ad93eaef739ea4f73e77ef71e973b665366f83c6f09821a5c6",
+    "results/nlr_pilot_v1/domain_evidence.tsv": "50191fda946b320fd72a95431e8760d70b10ad11eb7ddad193057ebd07064660",
+    "results/nlr_pilot_v1/locus_classification.tsv": "88ee149dc60c9b02294c6792b01fa46467d44c02d814d5a7c4260303cd11f7cb",
+    "results/nlr_pilot_v1/mapping_qc.tsv": "3851d0cf364bbc71ab1693d23e7b3a309db4029e58e4090805657502dedb1009",
+    "results/nlr_pilot_v1/overlapping_core_review.tsv": "42b823316ccda378b2c0b0a40b7bef438e9c286cc4cab3083b269043ea526f03",
+    "results/nlr_pilot_v1/protein_classification.tsv": "b56a815bba64db915a60429dfd67445ff6a08c2278142c179b664048833fa92c",
+    "results/nlr_pilot_v1/species_summary.tsv": "c0b7f77a99b5ed0d491ab1a42ace2adc472a4d5dc4d34e744a0b6fc5dcb94370"
+  }
+}

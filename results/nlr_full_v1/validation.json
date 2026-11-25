@@ -1,0 +1,99 @@
+{
+  "protocol_id": "coral-nlr-v1.0",
+  "stage": "nine-species NLR identification",
+  "species": [
+    "Acropora hyacinthus",
+    "Caulastraea furcata",
+    "Echinopora horrida",
+    "Galaxea fascicularis",
+    "Isopora palifera",
+    "Pocillopora damicornis",
+    "Porites cylindrica",
+    "Stylophora pistillata",
+    "Turbinaria reniformis"
+  ],
+  "primary_species": [
+    "Acropora hyacinthus",
+    "Caulastraea furcata",
+    "Galaxea fascicularis",
+    "Isopora palifera",
+    "Pocillopora damicornis",
+    "Porites cylindrica",
+    "Stylophora pistillata",
+    "Turbinaria reniformis"
+  ],
+  "completed_at": "2026-11-17T21:35:07-0800",
+  "tools": {
+    "hmmsearch": [
+      "# hmmsearch :: search profile(s) against a sequence database",
+      "# HMMER 3.4 (Aug 2023); http://hmmer.org/",
+      "# Copyright (C) 2023 Howard Hughes Medical Institute."
+    ],
+    "blastp": [
+      "blastp: 2.17.0+",
+      " Package: blast 2.17.0, build Aug 22 2026 13:45:01"
+    ],
+    "makeblastdb": [
+      "makeblastdb: 2.17.0+",
+      " Package: blast 2.17.0, build Aug 22 2026 13:45:01"
+    ]
+  },
+  "frozen_input_representations_verified": 65,
+  "human_canonical_controls_pass": true,
+  "apaf1_specificity_pass": true,
+  "hydra_noncanonical_control_pass": true,
+  "hydra_expected_architecture_source": "https://doi.org/10.1093/molbev/msq349 (Figure 4; DEATH-NACHT without LRRs)",
+  "hydra_canonical": false,
+  "blast_self_controls_pass": true,
+  "protein_gene_mapping_pass": true,
+  "domain_coordinates_pass": true,
+  "count_unit": "unique GTF gene locus",
+  "primary_representative": "longest eligible isoform; lexical tie-break",
+  "internal_stop_scan_policy": "Replace internal * by X for HMMER only; retain flags and exclude these isoforms from counts.",
+  "partial_model_flag": "Missing annotated start_codon or stop_codon; review flag, not proof of biological truncation.",
+  "blast_coverage": "Union of all reported HSP intervals separately on query and subject; not sum of overlaps.",
+  "outcome_blind": true,
+  "association_tests_run": false,
+  "analysis_gate": "pass",
+  "source_script_sha256": "c310a1c55e1da86a1a6514d7f4a15bbfb7793f5c3f0368b081fedb6348082de1",
+  "classification_module_sha256": "28acb8629125363f1532291a3abaaa14926f21216c60757ff77c189b6d98bdf0",
+  "pilot_regression_checks": {
+    "species_summary.tsv": {
+      "status": "identical",
+      "records": 3,
+      "baseline_sha256": "c0b7f77a99b5ed0d491ab1a42ace2adc472a4d5dc4d34e744a0b6fc5dcb94370"
+    },
+    "protein_classification.tsv": {
+      "status": "identical",
+      "records": 94033,
+      "baseline_sha256": "b56a815bba64db915a60429dfd67445ff6a08c2278142c179b664048833fa92c"
+    },
+    "locus_classification.tsv": {
+      "status": "identical",
+      "records": 81795,
+      "baseline_sha256": "88ee149dc60c9b02294c6792b01fa46467d44c02d814d5a7c4260303cd11f7cb"
+    },
+    "domain_evidence.tsv": {
+      "status": "identical",
+      "records": 13462,
+      "baseline_sha256": "50191fda946b320fd72a95431e8760d70b10ad11eb7ddad193057ebd07064660"
+    },
+    "canonical_candidates.tsv": {
+      "status": "identical",
+      "records": 85,
+      "baseline_sha256": "24f2d7077cbea74d69abf73ec940126ea66d15e9a046553dd804d2adf7204e7c"
+    }
+  },
+  "output_sha256": {
+    "results/nlr_full_v1/control_domains.tsv": "1b022a66bb7e39ad93eaef739ea4f73e77ef71e973b665366f83c6f09821a5c6",
+    "results/nlr_full_v1/control_classification.tsv": "20f77a0b3d36d1cb94544c75391bf2adc241269ea1a1aab6aa9a3cfc7b36c343",
+    "results/nlr_full_v1/species_summary.tsv": "c1a1096243261e50f4b7d2776cfc8fa785717fe6af4bc0c64da3e06c42100642",
+    "results/nlr_full_v1/mapping_qc.tsv": "956654682aa520e78af3854ff84edf370b02b653605f7140a57a628a3484a315",
+    "results/nlr_full_v1/protein_classification.tsv": "1c427d54ce6099a98f922640147c61a2d66ecb6dfc20ba71b416ecbe3bd040cd",
+    "results/nlr_full_v1/locus_classification.tsv": "8f98246c373f03db9f3cef77118dfef4e618d511eeccb6f8f2f58e4f19ea9dc1",
+    "results/nlr_full_v1/domain_evidence.tsv": "2eaa1016b46ebab9fb2db5908beac9be15a4125ca0daceaae2ab4f278665ddf3",
+    "results/nlr_full_v1/canonical_candidates.tsv": "e2c094bc7527814dca0e630ea8b8a854e4e68724095f7bbf05f85a89103ccf64",
+    "results/nlr_full_v1/blast_hsps.tsv": "fa9bde63fc3bb6633e571fa24bfb067ed46726f4a43fa9fe57f6e2fb576ddbd4",
+    "results/nlr_full_v1/blast_pairs.tsv": "a30f69acfde7349f05989a9f542dbdf72027101b2de6376f64358c8d59acca4a"
+  }
+}

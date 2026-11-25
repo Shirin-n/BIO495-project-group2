@@ -1,0 +1,10 @@
+species	metadata_strict	present_strict	depth_pass_strict	primary_samples	recorded_colony_ids	collection_events	sites	expeditions	minimum_reads	median_reads	broad_mito_agree_samples	broad_all_mitotypes_samples	fewer_than_3_recorded_colonies
+Acropora hyacinthus	3	3	3	2	2	1	1	1	10325.0	11217.5	7	20	True
+Caulastraea furcata	1	1	1	1	1	1	1	1	10753.0	10753.0	1	1	True
+Echinopora horrida	0	0	0	0	0	0	0	0			1	1	True
+Galaxea fascicularis	2	2	2	2	2	2	1	1	12429.0	17976.0	2	2	True
+Isopora palifera	4	4	4	4	4	3	2	2	15582.0	17447.5	4	4	False
+Pocillopora damicornis	9	9	8	7	7	6	4	3	1110.0	6017.0	7	8	False
+Porites cylindrica	2	2	2	2	2	2	1	1	13986.0	16305.0	5	5	True
+Stylophora pistillata	6	6	6	5	5	3	2	2	1251.0	3968.0	8	9	False
+Turbinaria reniformis	2	2	2	2	2	2	1	1	12517.0	14277.0	4	4	True

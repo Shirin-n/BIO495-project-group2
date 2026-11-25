@@ -1,0 +1,44 @@
+{
+  "source_features": 129305,
+  "source_samples": 692,
+  "microbial_features": 108053,
+  "metadata_only_samples": 3,
+  "biom_only_samples": 0,
+  "minimum_reads": 1000,
+  "cohorts": {
+    "primary_strict_mito_agree": {
+      "samples": 25,
+      "features": 10316,
+      "species": 8,
+      "path": "data/processed/primary_strict_mito_agree"
+    },
+    "sensitivity_strict_all_mitotypes": {
+      "samples": 28,
+      "features": 10514,
+      "species": 8,
+      "path": "data/processed/sensitivity_strict_all_mitotypes"
+    },
+    "sensitivity_broad_mito_agree": {
+      "samples": 39,
+      "features": 11656,
+      "species": 9,
+      "path": "data/processed/sensitivity_broad_mito_agree"
+    },
+    "sensitivity_broad_all_mitotypes": {
+      "samples": 54,
+      "features": 12720,
+      "species": 9,
+      "path": "data/processed/sensitivity_broad_all_mitotypes"
+    },
+    "sensitivity_strict_mito_with_unassigned": {
+      "samples": 26,
+      "features": 11427,
+      "species": 8,
+      "path": "data/processed/sensitivity_strict_mito_with_unassigned"
+    }
+  },
+  "primary_species_with_3_recorded_colonies": 3,
+  "normalization": "unrarefied counts; no diversity normalization yet",
+  "mitochondrial_policy": "require yes in primary; retain no/unknown only in sensitivity",
+  "phylogeny_status": "species-level phylogeny still required"
+}
